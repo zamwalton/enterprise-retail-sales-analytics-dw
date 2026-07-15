@@ -1,0 +1,8 @@
+pandas
+numpy
+faker
+python-dotenv
+sqlalchemy
+psycopg2-binary
+openpyxl
+pytest
