@@ -4,12 +4,12 @@
 
 ## Project Information
 
-| Property | Value |
-|----------|--------|
-| Project | Enterprise Retail Sales Analytics Data Warehouse |
-| Version | 1.0 |
-| Author | Zam Walton P M |
-| Last Updated | July 2026 |
+| Property     | Value                                            |
+|--------------|--------------------------------------------------|
+| Project      | Enterprise Retail Sales Analytics Data Warehouse |
+| Version      | 1.0                                              |
+| Author       | Zam Walton P M                                   |
+| Last Updated | July 2026                                        |
 
 ---
 
@@ -109,18 +109,18 @@ Key features include:
 
 # 5. Technology Stack
 
-| Technology | Purpose |
-|------------|---------|
-| Python | ETL development and orchestration |
-| Pandas | Data extraction and transformation |
-| PostgreSQL | Enterprise Data Warehouse |
-| SQL | Analytics, views, optimization, reporting |
-| Power BI | Business Intelligence dashboards |
-| Apache Airflow | Workflow scheduling and orchestration |
-| Docker | Application containerization |
-| Git & GitHub | Version control |
-| python-dotenv | Environment variable management |
-| Logging | ETL monitoring and troubleshooting |
+| Technology     | Purpose                                   |
+|----------------|-------------------------------------------|
+| Python         | ETL development and orchestration         |
+| Pandas         | Data extraction and transformation        |
+| PostgreSQL     | Enterprise Data Warehouse                 |
+| SQL            | Analytics, views, optimization, reporting |
+| Power BI       | Business Intelligence dashboards          |
+| Apache Airflow | Workflow scheduling and orchestration     |
+| Docker         | Application containerization              |
+| Git & GitHub   | Version control                           |
+| python-dotenv  | Environment variable management           |
+| Logging        | ETL monitoring and troubleshooting        |
 
 ---
 
@@ -201,19 +201,19 @@ The warehouse follows a Star Schema.
 
 # 8. Project Folder Responsibilities
 
-| Folder | Responsibility |
-|----------|---------------|
-| config | Configuration files |
-| data | Raw, staging, processed, and warehouse export data |
-| etl | ETL modules |
-| database | Database scripts and schema objects |
-| sql | Analytics, reporting, optimization, and SQL scripts |
-| docs | Project documentation |
-| airflow | Workflow orchestration |
-| docker | Docker configuration |
-| powerbi | Dashboards and datasets |
-| tests | Unit and integration tests |
-| logs | ETL execution logs |
+| Folder   | Responsibility                                      |
+|----------|-----------------------------------------------------|
+| config   | Configuration files                                 |
+| data     | Raw, staging, processed, and warehouse export data  |
+| etl      | ETL modules                                         |
+| database | Database scripts and schema objects                 |
+| sql      | Analytics, reporting, optimization, and SQL scripts |
+| docs     | Project documentation                               |
+| airflow  | Workflow orchestration                              |
+| docker   | Docker configuration                                |
+| powerbi  | Dashboards and datasets                             |
+| tests    | Unit and integration tests                          |
+| logs     | ETL execution logs                                  |
 
 ---
 
