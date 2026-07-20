@@ -4,13 +4,13 @@
 
 ## Document Information
 
-| Property | Value |
-|----------|--------|
-| Project | Enterprise Retail Sales Analytics Data Warehouse |
-| Version | 1.0 |
-| Author | Zam Walton P M |
-| Last Updated | July 2026 |
-| Document Type | Project Scope |
+| Property      | Value                                            |
+|---------------|--------------------------------------------------|
+| Project       | Enterprise Retail Sales Analytics Data Warehouse |
+| Version       | 1.0                                              |
+| Author        | Zam Walton P M                                   |
+| Last Updated  | July 2026                                        |
+| Document Type | Project Scope                                    |
 
 ---
 
