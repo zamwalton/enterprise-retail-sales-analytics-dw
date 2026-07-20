@@ -1,14 +1,17 @@
-# ==========================
+# ============================================
+# Enterprise Retail Sales Analytics DW
+# Python .gitignore
+# ============================================
+
 # Python
-# ==========================
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual Environment
+# Virtual Environments
 venv/
-.env/
 .venv/
+env/
 
 # Environment Variables
 .env
@@ -30,17 +33,27 @@ build/
 dist/
 *.egg-info/
 
-# Jupyter
-.ipynb_checkpoints/
-
 # Testing
 .pytest_cache/
 .coverage
 htmlcov/
 
-# Power BI Auto Recovery
+# Jupyter
+.ipynb_checkpoints/
+
+# Power BI
 *.pbix.autorecovery
 
 # Temporary Files
 *.tmp
 *.temp
+
+# Airflow
+airflow/logs/
+airflow/airflow.db
+
+# Docker
+*.pid
+
+# Misc
+.cache/

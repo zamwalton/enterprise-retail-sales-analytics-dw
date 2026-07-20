@@ -4,12 +4,12 @@
 
 ## Project Information
 
-| Property | Value |
-|----------|--------|
-| Project | Enterprise Retail Sales Analytics Data Warehouse |
-| Version | 1.0 |
-| Author | Zam Walton P M |
-| Last Updated | July 2026 |
+| Property     | Value                                            |
+|--------------|--------------------------------------------------|
+| Project      | Enterprise Retail Sales Analytics Data Warehouse |
+| Version      | 1.0                                              |
+| Author       | Zam Walton P M                                   |
+| Last Updated | July 2026                                        |
 
 ---
 
@@ -23,17 +23,17 @@ The ETL pipeline extracts data from these systems, validates it, transforms it i
 
 # Source System Summary
 
-| Source System | Type | Business Area | Refresh Frequency | Primary Output |
-|--------------|------|---------------|-------------------|----------------|
-| POS | Transaction | Retail Stores | Daily | Store Sales |
-| Online Store | Transaction | E-Commerce | Daily | Online Sales |
-| CRM | Master | Customer Management | Daily | Customer Data |
-| Product Master | Master | Product Management | Weekly | Product Catalog |
-| Store Master | Master | Retail Operations | Weekly | Store Information |
-| HR | Master | Human Resources | Weekly | Employee Information |
-| Promotions | Master | Marketing | Daily | Promotion Details |
-| Suppliers | Master | Procurement | Monthly | Supplier Information |
-| Inventory | Operational | Warehouse Operations | Daily | Inventory Levels |
+| Source System  | Type        | Business Area        | Refresh Frequency | Primary Output       |
+|----------------|-------------|----------------------|-------------------|----------------------|
+| POS            | Transaction | Retail Stores        | Daily             | Store Sales          |
+| Online Store   | Transaction | E-Commerce           | Daily             | Online Sales         |
+| CRM            | Master      | Customer Management  | Daily             | Customer Data        |
+| Product Master | Master      | Product Management   | Weekly            | Product Catalog      |
+| Store Master   | Master      | Retail Operations    | Weekly            | Store Information    |
+| HR             | Master      | Human Resources      | Weekly            | Employee Information |
+| Promotions     | Master      | Marketing            | Daily             | Promotion Details    |
+| Suppliers      | Master      | Procurement          | Monthly           | Supplier Information |
+| Inventory      | Operational | Warehouse Operations | Daily             | Inventory Levels     |
 
 ---
 
@@ -60,13 +60,13 @@ Captures transactions from physical retail stores.
 
 ### Data Characteristics
 
-| Property | Value |
-|----------|-------|
-| Owner | Retail Operations |
-| Refresh | Daily |
-| Estimated Rows | 250,000 |
-| Primary Key | transaction_id |
-| File | sales_pos.csv |
+| Property       | Value             |
+|----------------|-------------------|
+| Owner          | Retail Operations |
+| Refresh        | Daily             |
+| Estimated Rows | 250,000           |
+| Primary Key    | transaction_id    |
+| File           | sales_pos.csv     |
 
 ---
 
@@ -90,13 +90,13 @@ Captures customer purchases made through the company's e-commerce platform.
 
 ### Data Characteristics
 
-| Property | Value |
-|----------|-------|
-| Owner | E-Commerce Team |
-| Refresh | Daily |
-| Estimated Rows | 150,000 |
-| Primary Key | order_id |
-| File | sales_online.csv |
+| Property       | Value            |
+|----------------|------------------|
+| Owner          | E-Commerce Team  |
+| Refresh        | Daily            |
+| Estimated Rows | 150,000          |
+| Primary Key    | order_id         |
+| File           | sales_online.csv |
 
 ---
 
@@ -122,13 +122,13 @@ Stores customer master data used across the organization.
 
 ### Data Characteristics
 
-| Property | Value |
-|----------|-------|
-| Owner | Customer Experience |
-| Refresh | Daily |
-| Estimated Rows | 10,000 |
-| Primary Key | customer_id |
-| File | customers.csv |
+| Property       | Value               |
+|----------------|---------------------|
+| Owner          | Customer Experience |
+| Refresh        | Daily               |
+| Estimated Rows | 10,000              |
+| Primary Key    | customer_id         |
+| File           | customers.csv       |
 
 ---
 
@@ -151,13 +151,13 @@ Maintains the organization's product catalog.
 
 ### Data Characteristics
 
-| Property | Value |
-|----------|-------|
-| Owner | Product Management |
-| Refresh | Weekly |
-| Estimated Rows | 2,000 |
-| Primary Key | product_id |
-| File | products.csv |
+| Property       | Value              |
+|----------------|--------------------|
+| Owner          | Product Management |
+| Refresh        | Weekly             |
+| Estimated Rows | 2,000              |
+| Primary Key    | product_id         |
+| File           | products.csv       |
 
 ---
 
@@ -179,13 +179,13 @@ Stores information about physical retail locations.
 
 ### Data Characteristics
 
-| Property | Value |
-|----------|-------|
-| Owner | Retail Operations |
-| Refresh | Weekly |
-| Estimated Rows | 100 |
-| Primary Key | store_id |
-| File | stores.csv |
+| Property       | Value             |
+|----------------|-------------------|
+| Owner          | Retail Operations |
+| Refresh        | Weekly            |
+| Estimated Rows | 100               |
+| Primary Key    | store_id          |
+| File           | stores.csv        |
 
 ---
 
@@ -207,13 +207,13 @@ Stores employee information.
 
 ### Data Characteristics
 
-| Property | Value |
-|----------|-------|
-| Owner | Human Resources |
-| Refresh | Weekly |
-| Estimated Rows | 500 |
-| Primary Key | employee_id |
-| File | employees.csv |
+| Property       | Value           |
+|----------------|-----------------|
+| Owner          | Human Resources |
+| Refresh        | Weekly          |
+| Estimated Rows | 500             |
+| Primary Key    | employee_id     |
+| File           | employees.csv   |
 
 ---
 
@@ -234,13 +234,13 @@ Stores marketing campaigns and promotional discounts.
 
 ### Data Characteristics
 
-| Property | Value |
-|----------|-------|
-| Owner | Marketing |
-| Refresh | Daily |
-| Estimated Rows | 100 |
-| Primary Key | promotion_id |
-| File | promotions.csv |
+| Property       | Value          |
+|----------------|----------------|
+| Owner          | Marketing      |
+| Refresh        | Daily          |
+| Estimated Rows | 100            |
+| Primary Key    | promotion_id   |
+| File           | promotions.csv |
 
 ---
 
@@ -261,13 +261,13 @@ Stores supplier master information.
 
 ### Data Characteristics
 
-| Property | Value |
-|----------|-------|
-| Owner | Procurement |
-| Refresh | Monthly |
-| Estimated Rows | 300 |
-| Primary Key | supplier_id |
-| File | suppliers.csv |
+| Property       | Value         |
+|----------------|---------------|
+| Owner          | Procurement   |
+| Refresh        | Monthly       |
+| Estimated Rows | 300           |
+| Primary Key    | supplier_id   |
+| File           | suppliers.csv |
 
 ---
 
@@ -288,13 +288,13 @@ Tracks stock availability across stores and warehouses.
 
 ### Data Characteristics
 
-| Property | Value |
-|----------|-------|
-| Owner | Warehouse Operations |
-| Refresh | Daily |
-| Estimated Rows | 10,000 |
-| Primary Key | inventory_id |
-| File | inventory_levels.csv |
+| Property       | Value                |
+|----------------|----------------------|
+| Owner          | Warehouse Operations |
+| Refresh        | Daily                |
+| Estimated Rows | 10,000               |
+| Primary Key    | inventory_id         |
+| File           | inventory_levels.csv |
 
 ---
 

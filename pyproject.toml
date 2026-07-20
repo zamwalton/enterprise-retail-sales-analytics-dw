@@ -1,0 +1,8 @@
+[project]
+name = "enterprise-retail-sales-analytics-dw"
+version = "0.1.0"
+description = "Enterprise Retail Sales Analytics Data Warehouse"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
