@@ -9,3 +9,4 @@
 \i dimensions/03_dim_store.sql
 \i dimensions/04_dim_employee.sql
 \i dimensions/05_dim_promotion.sql
+\i dimensions/06_dim_supplier.sql
