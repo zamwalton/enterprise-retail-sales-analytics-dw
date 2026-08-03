@@ -1,0 +1,201 @@
+supplier_id,supplier_name,supplier_category,contact_name,phone,email,city,state,country,supplier_status
+SUP001,"Dutt, More and Choudhry",International,George Swaminathan,9578838432,gaurangpalla@dutt-ranganathan.org,Karnal,Tripura,India,Active
+SUP002,Merchant Group,International,Hitesh Varghese,8680547642,sandhunilima@sane.com,Asansol,Odisha,India,Active
+SUP003,Shetty-Tata,National,Akshay Bobal,3197584095,harshil62@nagarajan.net,Faridabad,Kerala,India,Active
+SUP004,"Kade, Savant and Chanda",International,Nisha Bera,4952527833,shari@sha.com,Dehradun,Bihar,India,Active
+SUP005,Baral-Mahajan,Local,Madhavi Tank,3106002002,jcontractor@cherian.com,Pimpri-Chinchwad,Mizoram,India,Active
+SUP006,Kumer-Ratti,Local,Nitara Panchal,4742794777,sprasad@warrior-more.com,Chennai,Himachal Pradesh,India,Active
+SUP007,"Bajwa, Bobal and Wable",National,Zansi Murthy,3343307208,labanatwal@bir-manda.com,Ramagundam,Tamil Nadu,India,Active
+SUP008,Verma Ltd,International,Gopal Dixit,5503892839,dalajaarya@rana-swaminathan.com,Ambarnath,West Bengal,India,Active
+SUP009,"Yadav, Kuruvilla and Raju",International,Shravya Shah,9149885544,sprabhakar@raju.info,Phagwara,Punjab,India,Active
+SUP010,Bava PLC,National,Yug Kale,6282430318,faris08@sura-chandra.com,Erode,Gujarat,India,Active
+SUP011,Ranganathan Ltd,National,Arya Kalita,7331247323,yogiveda@kala.com,Nadiad,Manipur,India,Active
+SUP012,Hegde-Peri,International,Shravya Chada,0489050089,noah83@bawa-goyal.com,Jabalpur,Meghalaya,India,Active
+SUP013,Halder-Khare,Local,Rachana Peri,4986000506,hiral13@rajagopal.net,Coimbatore,Assam,India,Active
+SUP014,"Bhagat, Bath and Vora",National,Libni Parekh,5131823317,farajtella@sachdev.com,Nagercoil,Uttarakhand,India,Active
+SUP015,"Gara, Roy and Badami",International,Michael Dhillon,3586180268,samarprabhu@vora-dhar.com,Latur,Maharashtra,India,Active
+SUP016,Misra-Parekh,Local,Jack Pingle,0139777531,pantbakhshi@mani.net,Ongole,Goa,India,Active
+SUP017,Chauhan Ltd,International,Ekantika Bassi,2998661963,agrawalyatin@sharma-narang.com,Purnia,Tripura,India,Active
+SUP018,"Dey, Mani and Keer",International,Yahvi Tank,1736878816,elijahdave@gade.com,Coimbatore,Telangana,India,Active
+SUP019,Sabharwal-Gaba,Local,Sachi Golla,5272817611,boradakshesh@kalita-lata.net,Silchar,Manipur,India,Active
+SUP020,"Nayak, Sama and Nigam",International,Theodore Pillai,4338649453,okarnik@sathe-setty.com,Purnia,Haryana,India,Active
+SUP021,Vyas-Sarkar,National,Girindra Sagar,8911328493,rachanarege@krishna.com,Davanagere,Uttar Pradesh,India,Inactive
+SUP022,"Mohanty, Chanda and Bahri",National,Triveni Chaudhari,9220760900,pallamegha@varma.net,Tezpur,Goa,India,Active
+SUP023,Mahajan and Sons,International,Janya Devan,8293700496,gopal67@gole.net,Latur,Nagaland,India,Inactive
+SUP024,"Borra, Bumb and Patla",International,Victor Banik,2921131492,bailsara@barad-prashad.com,Shimla,Jharkhand,India,Active
+SUP025,Kumer-Upadhyay,National,Reva Ramaswamy,9409759202,xavier27@mutti-boase.com,Delhi,Himachal Pradesh,India,Active
+SUP026,Gandhi-Acharya,National,Nandini Lala,4416061534,omkaarkunda@bakshi.com,Gopalpur,Jharkhand,India,Active
+SUP027,"Salvi, Golla and Yadav",National,Vinaya Rajagopal,1775463652,brijeshbuch@rao.biz,Vellore,Gujarat,India,Active
+SUP028,"Choudhury, Lala and Sandhu",Local,Chakradev Nadkarni,6871269682,anmolsen@saraf.net,Burhanpur,Karnataka,India,Inactive
+SUP029,Bhakta-Chad,International,Omaja Sanghvi,0545007624,masteronkar@reddy-mistry.com,Guna,Jharkhand,India,Active
+SUP030,Dhar Ltd,Local,Ishwar Baria,2349233035,hdube@narula-pingle.com,Karimnagar,Tamil Nadu,India,Active
+SUP031,Chokshi Group,International,Hema Saraf,1192357005,anaybatra@magar.net,Ratlam,Odisha,India,Active
+SUP032,Varty-Srinivas,National,Jeet Kanda,9112095681,kapadiabalhaar@khalsa-bhandari.com,Bathinda,Jharkhand,India,Active
+SUP033,Iyer Group,National,Ishaan Karpe,9927016149,rakshamadan@master.net,Mirzapur,Tamil Nadu,India,Active
+SUP034,"Mangat, Saran and Ranganathan",Local,Mugdha Pillay,8714520902,nitara67@palla.com,Darbhanga,Bihar,India,Active
+SUP035,"Sandhu, Narayan and Khalsa",International,Wazir Vohra,8331875446,ishaanne@joshi.com,Jamshedpur,Karnataka,India,Active
+SUP036,Goda-Dube,International,Forum Contractor,1906726233,wkalita@gole.com,Kumbakonam,Goa,India,Active
+SUP037,"Patil, Andra and Sarna",National,Vivaan Kade,3068900552,christopherramakrishnan@more.com,Bhimavaram,Uttar Pradesh,India,Active
+SUP038,Vala Ltd,Local,Rachita Wali,6218559473,gargfrado@dugal.biz,Thiruvananthapuram,Sikkim,India,Active
+SUP039,Pal Inc,Local,Kevin Karnik,7828161237,krishnaethan@trivedi-ganesh.info,Sultan Pur Majra,Odisha,India,Active
+SUP040,Sibal-Agate,Local,Praneel Goyal,4256075188,udyatiagate@gokhale.com,Howrah,Arunachal Pradesh,India,Active
+SUP041,"Kata, Nadkarni and Bal",Local,Gautam Kannan,0867007873,gsaxena@deshmukh.net,Hazaribagh,Uttarakhand,India,Active
+SUP042,Balakrishnan and Sons,International,Inaya Jhaveri,5975485586,yatin78@chander-dasgupta.biz,Kishanganj,Tripura,India,Active
+SUP043,Khurana-Koshy,International,Divya Raj,7011002660,yauvanipal@iyer.com,Warangal,Telangana,India,Active
+SUP044,"Salvi, Kade and Shanker",International,Jalsa Kale,8571010833,isaac61@subramanian-sunder.com,Anantapuram,West Bengal,India,Active
+SUP045,"Viswanathan, Dubey and Manda",International,Jeremiah Goswami,7039328761,ijaya66@tara-bhavsar.com,Nellore,Manipur,India,Active
+SUP046,"Sekhon, Baral and Gade",National,Pranit Narula,4203321976,fmody@anand.com,Hyderabad,Madhya Pradesh,India,Active
+SUP047,Upadhyay Inc,International,Upkaar Sawhney,1497811332,farajde@modi.com,Kottayam,Kerala,India,Active
+SUP048,Apte PLC,National,Champak Bora,6838820891,ngandhi@bava.net,Junagadh,Uttarakhand,India,Active
+SUP049,"Ahuja, Comar and Shankar",National,Rayaan Mannan,2994377105,ynanda@sridhar.info,Bhubaneswar,Tripura,India,Active
+SUP050,Agrawal-Keer,Local,Yutika Walla,9869549741,lhanda@rajan-shankar.org,Gandhinagar,Punjab,India,Active
+SUP051,Korpal Inc,International,Vrinda Choudhry,2909072702,mahikagoel@anand.org,Bilaspur,Assam,India,Inactive
+SUP052,Sawhney Ltd,National,Tejas Sanghvi,0685423606,igola@choudhary-chand.com,Khandwa,Chhattisgarh,India,Active
+SUP053,Nanda-Pandya,Local,Qadim Bava,3984416737,nihal23@date-ramachandran.com,Pimpri-Chinchwad,Arunachal Pradesh,India,Active
+SUP054,"Ratta, Nazareth and Gopal",Local,Samaksh Tella,4980313023,harinisibal@sethi.net,Mau,Kerala,India,Active
+SUP055,"Bhatti, Tiwari and Goswami",International,Urvi Panchal,1381987746,qasim15@chaudhry.com,Motihari,Odisha,India,Active
+SUP056,Mishra Inc,National,Rachana Suri,0218561468,goyalanirudh@bhandari.com,Kurnool,Arunachal Pradesh,India,Active
+SUP057,"Sridhar, Aggarwal and Modi",International,Omkaar Cherian,3410978713,cbath@shroff-mallick.info,Pune,Telangana,India,Active
+SUP058,Barman-Garg,National,Atharv Magar,5474001172,jatinvarma@manda.com,Kharagpur,Jharkhand,India,Active
+SUP059,Suri Inc,International,Rushil Sankar,9918320330,gaurangiloke@hans.com,Saharanpur,Sikkim,India,Inactive
+SUP060,Pau Group,National,Isaac Chakrabarti,9098117344,osubramaniam@gour-mangat.org,Loni,Haryana,India,Active
+SUP061,"Rau, Sekhon and Khalsa",International,Benjamin Mangat,1848619248,agateanamika@walia.org,Raipur,Tripura,India,Active
+SUP062,Sachar-Edwin,Local,Vanya Mani,9636228841,deygaurangi@bhakta.com,Etawah,Gujarat,India,Active
+SUP063,Saha and Sons,Local,Ira Dhaliwal,2537835459,janideepa@vohra-gill.com,Fatehpur,Mizoram,India,Active
+SUP064,Chokshi-Shroff,National,Keya Kaur,3542756684,balendrasachdev@bava.com,Narasaraopet,Nagaland,India,Active
+SUP065,"Sachar, Sani and Hegde",International,Advika Bhandari,1517807799,suhani09@sridhar.com,Panipat,Bihar,India,Active
+SUP066,Chhabra-Madan,International,Dominic Raman,2473216527,ksarin@bhattacharyya-malhotra.net,Bhusawal,Himachal Pradesh,India,Active
+SUP067,"Guha, Hans and Ghosh",National,Nimrat Vasa,7325306985,chaman01@sura-som.org,Bharatpur,Gujarat,India,Active
+SUP068,Rajagopalan Inc,Local,Matthew Boase,3644752285,iwali@bora.com,Bhalswa Jahangir Pur,Assam,India,Active
+SUP069,Chaudhary-Oza,International,Charles Balan,0255977402,aarav04@amble-sastry.com,Navi Mumbai,Maharashtra,India,Active
+SUP070,Kaul Inc,National,Sudiksha Dhingra,3534582697,vnatarajan@shankar.com,Raipur,Uttarakhand,India,Active
+SUP071,"Sandhu, Bhatnagar and Warrior",National,Ikbal Sharma,9560517574,orinder35@mani.net,Kadapa,Uttar Pradesh,India,Active
+SUP072,Shenoy LLC,Local,Ojasvi Khare,9751173751,nathanielgill@mohanty.biz,Rajahmundry,Uttar Pradesh,India,Active
+SUP073,Ramachandran and Sons,International,Daniel Rana,1877647154,rajata22@chandran.com,Anantapur,Arunachal Pradesh,India,Active
+SUP074,Dhillon-Johal,International,Warda Padmanabhan,0058168919,nidra73@thakur.com,Surat,Andhra Pradesh,India,Active
+SUP075,Bhakta-Vasa,Local,Guneet Rajagopal,9726668208,sharmachaaya@srinivas-chaudhary.org,Kirari Suleman Nagar,Andhra Pradesh,India,Active
+SUP076,"Mitter, Viswanathan and Agrawal",Local,Kashvi Shanker,2883974372,kmadan@bal.com,Solapur,Chhattisgarh,India,Active
+SUP077,"Sarma, Murthy and Kara",Local,Chandran Bora,7935895625,qchoudhry@borde.com,Bidar,Tamil Nadu,India,Active
+SUP078,"Arya, Modi and Bose",National,Gautam Chokshi,1087307102,ranbirminhas@purohit.com,Rewa,Goa,India,Active
+SUP079,"Dhingra, Badami and Master",Local,Teerth Narayanan,5237928698,bchandran@shere-chad.org,Kurnool,Kerala,India,Active
+SUP080,"Ranganathan, Soni and Karan",International,Faras Gola,1729958879,gkrishnan@bakshi.com,Anantapuram,Madhya Pradesh,India,Active
+SUP081,"Wable, Varughese and Naik",International,Yashica Om,6728665376,chasmumvyas@kohli.com,Siliguri,Gujarat,India,Active
+SUP082,"Divan, Bhakta and Saha",International,Aadi Ganesan,4735507745,logan45@choudhary.com,Dehradun,Mizoram,India,Active
+SUP083,"Karan, Oza and Raj",Local,Qushi Vora,1074660864,yochanabutala@pai-bajwa.net,Allahabad,Chhattisgarh,India,Active
+SUP084,"Balasubramanian, Bir and Oak",International,Jai Samra,1365019494,ychad@mallick-sen.info,Ballia,Madhya Pradesh,India,Active
+SUP085,Swamy-Raghavan,National,Hritik Lala,8579811118,ochaudhry@sood.info,Ichalkaranji,Manipur,India,Active
+SUP086,Sane Inc,Local,Yuvraj Bora,0729041263,kalaadvika@gopal.com,Morbi,Meghalaya,India,Inactive
+SUP087,Jhaveri and Sons,Local,Yashasvi Nagar,6821677090,haritachahal@grover-boase.com,Navi Mumbai,Punjab,India,Active
+SUP088,Dey-Bora,Local,Kamya Chaudhry,1907591553,yoshitasavant@kakar-chacko.com,Adoni,Maharashtra,India,Active
+SUP089,"Ratta, Vaidya and Ahluwalia",National,Falguni Palan,0612865800,baradoscar@kala.com,Tiruchirappalli,Punjab,India,Active
+SUP090,Kara LLC,International,Farhan Balasubramanian,3393606790,bhaktaekta@aurora-comar.biz,Panchkula,Maharashtra,India,Active
+SUP091,"Ravel, Wali and Shanker",National,Nathaniel Kothari,6519816191,guneet46@lanka-bhattacharyya.net,Shahjahanpur,Himachal Pradesh,India,Active
+SUP092,Sura Group,International,Vyanjana Mishra,5985471736,lallajagat@minhas.com,Aurangabad,Assam,India,Active
+SUP093,Swaminathan-Saha,National,Ucchal Parikh,1044824044,rachitamitter@salvi.com,Visakhapatnam,Haryana,India,Active
+SUP094,Nadkarni Inc,National,Ucchal Grover,3100188189,turvilad@sarraf-korpal.com,Nashik,Odisha,India,Active
+SUP095,Balasubramanian-Keer,National,Shivani Tripathi,2869815380,udantgrover@gopal.info,Ambattur,Telangana,India,Active
+SUP096,"Chad, Bhatt and Hari",International,Eta Dugar,6393386051,pooja36@halder.com,Adoni,Haryana,India,Active
+SUP097,"Venkataraman, Upadhyay and Butala",National,Viraj Divan,9392378807,gbera@kale.info,Ramgarh,Jharkhand,India,Active
+SUP098,Saxena Group,National,Rajata Kade,9853770368,xkalita@manne-bhatnagar.net,Erode,Karnataka,India,Active
+SUP099,Jaggi-Thaman,National,Gaurav Dey,2579757436,gokhaleyauvani@kohli-gulati.com,Sri Ganganagar,Tamil Nadu,India,Active
+SUP100,Das LLC,National,Sathvik Anand,3776736964,forumkala@kohli-doctor.biz,Bahraich,Gujarat,India,Active
+SUP101,Mohan-Thakur,Local,Osha Prasad,5721236459,meghanaoak@patel.net,Katihar,Mizoram,India,Active
+SUP102,"Amble, Gill and Zacharia",Local,Omaja Ratti,0408556419,nayakonveer@mody.com,Haldia,Manipur,India,Active
+SUP103,"Mangal, Ramanathan and Bhatnagar",National,Qushi Upadhyay,6969352928,cnayak@sarma.com,Erode,Kerala,India,Active
+SUP104,Rattan-Shah,Local,Amruta Bhandari,6330342795,jgrover@nagarajan.com,Muzaffarpur,Telangana,India,Active
+SUP105,Ray PLC,Local,Lajita Kar,4835749156,qnaik@pillai-bala.com,Bharatpur,Bihar,India,Active
+SUP106,Mammen-Kaul,Local,Upadhriti Ravel,9795353220,lavanya21@gade.com,Siwan,Uttar Pradesh,India,Inactive
+SUP107,Om-Khalsa,Local,Garima Mitra,3016307047,jalsakara@bumb.com,Rohtak,Kerala,India,Active
+SUP108,Sastry PLC,National,Ekbal Talwar,9497005378,netrasahni@bail-srivastava.com,Panipat,Odisha,India,Active
+SUP109,Edwin-Agate,Local,Ekta Narang,7123999892,qwalia@buch.org,Karimnagar,Bihar,India,Active
+SUP110,Wali LLC,Local,Jyoti Chadha,3907936337,borratimothy@nagarajan.com,Gandhidham,Nagaland,India,Active
+SUP111,Khanna Inc,National,Vrishti Varkey,3248480945,bhattacharyyaijaya@devan.net,Sri Ganganagar,Nagaland,India,Inactive
+SUP112,Mallick Inc,Local,Alka Tank,0677835879,dvarma@jani-dua.biz,Begusarai,Tripura,India,Active
+SUP113,Toor-Jha,National,Pallavi Gade,3942472158,vinayamerchant@handa.info,Medininagar,Tamil Nadu,India,Inactive
+SUP114,Varkey Inc,International,Nihal Bhargava,3437307579,edwinyatan@sarraf-shankar.net,Kottayam,Maharashtra,India,Active
+SUP115,Bahri Ltd,Local,Wazir Badal,3162471371,omaja28@madan.com,Bareilly,Gujarat,India,Active
+SUP116,Prakash-Sami,International,Ridhi Bava,6604372965,cbarad@karnik-karnik.com,Tadipatri,Jharkhand,India,Active
+SUP117,"Borah, Dugar and Pandit",International,Mahika Majumdar,9002471437,sanyadeol@rattan.com,Jalandhar,Tripura,India,Active
+SUP118,Verma-Kala,National,Logan Khosla,5092533593,kurianaadhya@bakshi-malhotra.com,Aligarh,West Bengal,India,Active
+SUP119,Lanka Group,International,Tanish Konda,9402174701,vritti91@sidhu-seth.com,Pudukkottai,Telangana,India,Active
+SUP120,Gopal-Sarkar,National,Anika Lal,1745541864,siyaboase@buch.info,Motihari,Punjab,India,Active
+SUP121,"Dugal, Mistry and Garde",Local,Chakradhar Ravel,5168625883,ubika63@dass.net,Pondicherry,Tripura,India,Active
+SUP122,Krishnan-Keer,International,Abha Ganesan,7446900451,olall@buch.biz,Lucknow,Assam,India,Active
+SUP123,Choudhry-Ratti,International,Quincy Korpal,3059258459,abhiram20@wason-chokshi.com,Shahjahanpur,Odisha,India,Active
+SUP124,Barad-Bail,Local,Henry Ravel,8701752471,aramachandran@date.com,Nellore,Mizoram,India,Active
+SUP125,Krishna-Khosla,National,Dalaja Tata,5261032983,merchantadweta@deol.info,Shimla,Chhattisgarh,India,Active
+SUP126,Mittal-Ray,National,Samarth Patla,0661345521,netra09@kara-sami.com,Mau,Uttarakhand,India,Active
+SUP127,Baria Inc,International,Radhika Loyal,3156570010,chhabrayug@kota-vasa.com,Anantapur,Kerala,India,Active
+SUP128,Mitter-Kade,International,Ronith Kaul,3438127957,vyasxavier@boase.com,Ozhukarai,Haryana,India,Active
+SUP129,Jain Ltd,National,Ishita Bawa,1822031288,gaganupadhyay@raj-sandal.com,Naihati,Nagaland,India,Active
+SUP130,Lad-Sangha,International,Ijaya Aurora,4330076105,aarush56@sule.com,Pune,Nagaland,India,Active
+SUP131,"Garde, Mitter and Choudhry",National,Ayaan Gour,5155561577,janani69@madan.biz,Burhanpur,Arunachal Pradesh,India,Active
+SUP132,"Wason, Dasgupta and Viswanathan",Local,Aarini Nagar,1347283068,uhans@thakur.com,Jorhat,Kerala,India,Active
+SUP133,Saraf-Kannan,National,Gabriel Madan,5323556505,rsinghal@nagar-gill.net,Vadodara,Chhattisgarh,India,Active
+SUP134,Sidhu and Sons,International,Ayaan Mahal,4759745848,acharyayashodhara@ganguly.com,Anantapuram,Uttar Pradesh,India,Inactive
+SUP135,"Mitra, Sathe and Mahal",National,Aachal Kaul,1987902485,daliaalexander@baria-murthy.com,Korba,Gujarat,India,Active
+SUP136,Acharya-Thaker,Local,Aarna Trivedi,8054117263,prisha91@varma.com,Narasaraopet,Haryana,India,Active
+SUP137,Tripathi PLC,Local,Rachita Upadhyay,9692581459,vihaanuppal@toor.com,Miryalaguda,Uttarakhand,India,Active
+SUP138,Bhargava Ltd,Local,Hemal Nadkarni,0875320041,dwali@deo.com,Allahabad,Odisha,India,Active
+SUP139,"Kale, Kulkarni and Karan",National,Kamala Vala,1666623230,sureshsathvik@mane-iyengar.com,Jaunpur,Karnataka,India,Active
+SUP140,Prasad PLC,National,Pavani Dani,0497747707,sahnimeghana@khare-hora.com,Munger,Kerala,India,Active
+SUP141,Savant-Chatterjee,National,Tripti Kapur,9656253720,bahadurjit55@narula.com,Bellary,Meghalaya,India,Active
+SUP142,Sankar-Kari,Local,Balveer Subramanian,6594257771,williamsami@kibe.com,Jalna,Nagaland,India,Active
+SUP143,Luthra LLC,Local,Siddharth Kala,3209358585,riabali@kara-chander.info,Khora ,Andhra Pradesh,India,Active
+SUP144,"Kara, Ganesh and Kale",International,Ekapad Bir,3302481381,brindajani@bahri.net,Varanasi,Goa,India,Active
+SUP145,Varty-Rajan,International,Jason Sharaf,5377904274,ekapad81@chawla.com,Bhiwandi,Madhya Pradesh,India,Active
+SUP146,Iyengar Inc,International,Chameli Viswanathan,1164797689,groverronith@gill.org,Bhilai,Tripura,India,Active
+SUP147,Gour-Muni,Local,Akshay Modi,0654564447,bhattacharyyasamar@pall-sundaram.com,Kavali,Rajasthan,India,Active
+SUP148,Rau Group,National,Nachiket Bajwa,7326538221,calebnazareth@bahl-wable.biz,Lucknow,Arunachal Pradesh,India,Active
+SUP149,Halder-Bhakta,Local,Mekhala Khurana,7324546530,mohantyzaid@nanda-dhingra.com,Latur,Tamil Nadu,India,Active
+SUP150,"Apte, Kibe and Atwal",Local,Abhimanyu Nair,9470562786,onkar84@prabhu.biz,Durgapur,Assam,India,Active
+SUP151,"Raju, Lad and Sibal",Local,Siya Narayanan,4348605700,vedika28@hans.com,Coimbatore,Mizoram,India,Active
+SUP152,Kar and Sons,National,Manya Golla,2886917718,sainiyatan@ganguly.com,Kakinada,Kerala,India,Active
+SUP153,Agate Inc,National,Devansh Jani,1492331552,jmurthy@amble-suri.com,Barasat,Manipur,India,Active
+SUP154,"Roy, Puri and Bala",Local,Brinda Bhakta,0212069068,bhatridhi@salvi-soman.org,Bhalswa Jahangir Pur,Mizoram,India,Active
+SUP155,Agrawal Inc,Local,Ganga Karnik,1265698901,jasmitsoni@borah-karnik.info,Serampore,Rajasthan,India,Active
+SUP156,Prabhakar Ltd,National,Maanav Sarma,4637532800,manan52@halder.com,Burhanpur,Mizoram,India,Active
+SUP157,Ramakrishnan and Sons,International,Yoshita Bahl,4395207323,veersankaran@narayan.com,Akola,Meghalaya,India,Active
+SUP158,Naidu-Kapur,Local,Chaitaly Bal,5148867564,veerpathak@shanker.com,Jalandhar,Bihar,India,Active
+SUP159,"Dayal, Mistry and Sundaram",National,Balhaar Mahajan,1764351107,xsethi@lala.com,Aurangabad,Telangana,India,Active
+SUP160,Pingle Group,Local,Bina Deol,8143152723,ybatra@chakrabarti-patel.org,Howrah,Haryana,India,Active
+SUP161,Lal-Issac,National,Yashodhara Subramaniam,3189769420,bachittarchand@bir.net,Mehsana,Manipur,India,Active
+SUP162,"Kala, Sheth and Sharaf",National,Dominic Ram,3217806448,vvarty@uppal-kari.com,Kulti,Nagaland,India,Active
+SUP163,Ghose-Ram,Local,Dalaja Nagy,8131707970,sai44@keer.org,Gaya,Bihar,India,Active
+SUP164,"Bhandari, Dar and Deo",National,Hemani Deshpande,2442817943,bakhshi96@ben.net,Shimla,Andhra Pradesh,India,Active
+SUP165,"Dara, Murthy and Shanker",Local,Adya Iyengar,2550034595,oliver70@babu.org,Pali,Kerala,India,Active
+SUP166,Ramachandran-Lalla,National,Laban Karpe,8531555655,pradhanjanaki@zacharia-radhakrishnan.com,Suryapet,Assam,India,Active
+SUP167,"Yadav, Edwin and Mitra",National,Fiyaz Dua,6227657499,alka79@sundaram.com,Howrah,Arunachal Pradesh,India,Active
+SUP168,Mand-Munshi,National,Xalak Bhavsar,3179769893,samaksh34@mandal.net,Dharmavaram,Goa,India,Active
+SUP169,Lad Group,National,Ubika Vora,0488393132,msuri@saini.info,Tezpur,Nagaland,India,Active
+SUP170,Jain Inc,International,Arin Khalsa,8428464845,aishanihari@kapur-ganesan.org,Tirupati,Rajasthan,India,Active
+SUP171,"Vyas, Dhillon and Luthra",International,Utkarsh Manda,4790134612,diya08@shenoy-din.com,Kadapa,Andhra Pradesh,India,Active
+SUP172,"Badami, Sarraf and Nagar",International,Jack Kanda,9037597467,bhavnakhurana@ramanathan.com,Bhalswa Jahangir Pur,Meghalaya,India,Inactive
+SUP173,Tailor-Solanki,National,Avi Lala,1432491013,ymadan@buch-contractor.com,Anantapuram,Karnataka,India,Active
+SUP174,Chanda Ltd,National,Urishilla Narasimhan,6077046700,balatanmayi@kade-keer.net,Faridabad,Himachal Pradesh,India,Active
+SUP175,Choudhary PLC,International,Leela Pradhan,3980105669,cchakraborty@parekh.com,Dehradun,Telangana,India,Active
+SUP176,Varghese and Sons,International,Tara Chada,2282818065,omkaar03@kadakia-sanghvi.com,Singrauli,Haryana,India,Active
+SUP177,"Bhatti, Golla and Ram",National,Arunima Khurana,6454852594,idikaprabhu@chatterjee.com,Rajpur Sonarpur,Mizoram,India,Active
+SUP178,Deshpande and Sons,Local,Lohit Dar,5043116196,smishra@bhat.net,Bareilly,Manipur,India,Active
+SUP179,"Soman, Venkataraman and Dani",National,Sarthak Chad,0347865078,bhavini96@tailor-dhar.org,Patna,Andhra Pradesh,India,Active
+SUP180,"Yohannan, Sur and Dixit",Local,Raghav Zachariah,8577212144,pillayparth@tara.com,Machilipatnam,Sikkim,India,Active
+SUP181,"Raman, Dalal and Jani",National,Arjun Das,1062618663,mandalanmol@saha.net,Bikaner,Karnataka,India,Active
+SUP182,"Chakraborty, Lall and Mannan",International,Lipika Doctor,3796017435,mukherjeefrederick@mohan-badami.com,Indore,Uttarakhand,India,Active
+SUP183,"Naidu, Vala and Grewal",Local,Dipta Acharya,3218021808,bhavinimadan@mishra-buch.org,Sikar,Karnataka,India,Active
+SUP184,Datta-Mistry,International,Nidra Chacko,7514669173,nandinikant@manne.info,Amroha,Assam,India,Active
+SUP185,Khosla-Ramaswamy,Local,Vedika Mukherjee,4104900462,pratyush18@dalal.com,Sri Ganganagar,Haryana,India,Active
+SUP186,Konda-Ganesh,National,Keya Das,7860748278,farhan65@patel.com,Jamalpur,Madhya Pradesh,India,Active
+SUP187,Zacharia-Bandi,National,Simon Chada,2348815445,hemanginichatterjee@nair.org,Shahjahanpur,Manipur,India,Active
+SUP188,Kota Ltd,National,Bhanumati Nori,8695395756,nandarehaan@cheema.com,Bijapur,Uttar Pradesh,India,Active
+SUP189,Ganguly Inc,National,Dayamai Mitter,7316811625,bhavika16@venkatesh.net,Srinagar,Nagaland,India,Active
+SUP190,Walia-More,National,Robert Venkatesh,5808547083,tkale@krishnamurthy.com,Fatehpur,Andhra Pradesh,India,Active
+SUP191,"Badami, Ramaswamy and Kaul",National,Waida Wagle,4559961484,aadimital@sawhney-dutt.com,Akola,Meghalaya,India,Active
+SUP192,"Amble, Memon and Ravi",International,Nathan Rajagopalan,8504049773,vsridhar@suresh.com,Khandwa,Rajasthan,India,Active
+SUP193,Dani-Bali,International,Charles Vora,6959549927,dharriya@banik-gara.org,Kolkata,Gujarat,India,Active
+SUP194,Soman Ltd,National,Ishani Thakkar,6829037277,ucchal54@dora-krish.com,Kurnool,Uttar Pradesh,India,Active
+SUP195,"Wason, Bali and Kannan",International,Vasana Garde,7534396786,triveni93@desai.com,Chittoor,Rajasthan,India,Active
+SUP196,Loyal-Memon,National,Avi Minhas,5231049319,fdey@sule.com,Bhimavaram,Bihar,India,Active
+SUP197,Oommen-Raju,National,Leela Basak,4360196489,abhardwaj@rao-sahni.biz,Jalandhar,Haryana,India,Active
+SUP198,Bobal and Sons,International,Dayita Aggarwal,5793399447,chavvichaudhari@khurana.biz,Ozhukarai,Bihar,India,Active
+SUP199,Virk-Balan,National,Qadim Goel,5680118736,nagarlaksh@zacharia.com,Guna,Himachal Pradesh,India,Active
+SUP200,Rau and Sons,National,Aachal Gour,7150926246,varmawarjas@behl-ranganathan.com,Motihari,Punjab,India,Active

@@ -1,0 +1,501 @@
+employee_id,employee_name,gender,department,job_title,store_id,hire_date,salary,employment_status
+EMP00001,Daksha Tak,Male,Operations,Operations Manager,STORE049,2026-06-27,88130,Active
+EMP00002,Akshay Din,Female,Sales,Senior Sales Associate,STORE059,2025-01-13,97382,Active
+EMP00003,Krishna Keer,Male,Operations,Operations Executive,STORE017,2019-07-26,60720,Active
+EMP00004,Kevin Ratta,Male,Inventory,Inventory Executive,STORE086,2022-05-16,81442,Active
+EMP00005,Jackson Vora,Female,Operations,Operations Manager,STORE045,2025-11-03,76955,Active
+EMP00006,Oni Pathak,Male,Inventory,Inventory Executive,STORE073,2021-01-14,101235,Active
+EMP00007,Bachittar Modi,Female,IT,Support Engineer,STORE042,2022-02-01,107748,Active
+EMP00008,Yahvi Edwin,Male,IT,System Administrator,STORE028,2021-03-22,34619,Active
+EMP00009,Yauvani Bhalla,Female,Inventory,Inventory Manager,STORE006,2019-08-05,91511,Active
+EMP00010,Vansha Palla,Female,Operations,Operations Manager,STORE076,2016-08-29,48378,Active
+EMP00011,Harshil Joshi,Male,Finance,Finance Manager,STORE062,2020-06-27,118992,Active
+EMP00012,Parth Dhar,Male,HR,HR Manager,STORE059,2022-01-29,119066,Active
+EMP00013,Simon Kannan,Male,IT,Support Engineer,STORE076,2017-09-23,38016,On Leave
+EMP00014,Keya Gulati,Female,HR,HR Executive,STORE073,2018-07-01,92800,Active
+EMP00015,Mahika Toor,Female,HR,HR Executive,STORE031,2023-10-26,52767,Active
+EMP00016,Sarthak Bahl,Male,Inventory,Inventory Executive,STORE083,2022-12-06,55713,Active
+EMP00017,Lajita Wadhwa,Female,Operations,Operations Manager,STORE062,2025-10-11,93836,Active
+EMP00018,Damini Wable,Female,Finance,Finance Manager,STORE099,2018-12-12,103636,Active
+EMP00019,Janaki Nori,Male,Operations,Operations Manager,STORE071,2020-05-03,107278,Active
+EMP00020,Fitan Krishna,Male,Sales,Senior Sales Associate,STORE022,2017-09-26,118592,Active
+EMP00021,Nidra Oza,Male,Sales,Store Manager,STORE067,2021-09-11,41207,Active
+EMP00022,Jagrati Misra,Female,Sales,Sales Associate,STORE005,2023-03-24,57420,Active
+EMP00023,Henry Yadav,Female,HR,HR Manager,STORE057,2023-10-23,49481,Active
+EMP00024,Guneet Walla,Male,IT,System Administrator,STORE035,2022-10-06,89658,Active
+EMP00025,Riya Sarma,Male,Finance,Accountant,STORE098,2017-12-09,37562,Active
+EMP00026,Hiral Deo,Male,HR,HR Executive,STORE022,2021-09-10,35604,Active
+EMP00027,Gunbir Hegde,Male,IT,System Administrator,STORE012,2022-12-24,64416,Active
+EMP00028,Urvashi Koshy,Female,Sales,Store Manager,STORE010,2018-11-28,105080,Active
+EMP00029,Champak Sanghvi,Male,Inventory,Inventory Executive,STORE032,2017-12-12,84220,Terminated
+EMP00030,Rayaan Mittal,Male,Sales,Senior Sales Associate,STORE049,2018-12-01,57636,Active
+EMP00031,Daksha Rout,Female,IT,Support Engineer,STORE046,2022-05-26,109751,Active
+EMP00032,Inaya Nigam,Male,HR,HR Manager,STORE033,2021-05-22,66945,Active
+EMP00033,Bishakha Singh,Male,Operations,Operations Manager,STORE052,2016-12-14,45647,Active
+EMP00034,Kala Nair,Female,Inventory,Inventory Manager,STORE083,2023-04-29,84879,Active
+EMP00035,Nirja Palla,Female,HR,HR Manager,STORE050,2022-02-10,54628,Active
+EMP00036,Isaiah Kibe,Male,HR,HR Executive,STORE012,2024-05-04,89901,Active
+EMP00037,Gopal Srivastava,Female,IT,System Administrator,STORE007,2018-12-18,52730,Active
+EMP00038,Gayathri Modi,Female,Finance,Accountant,STORE095,2022-01-03,103737,Active
+EMP00039,Girik Mody,Female,IT,System Administrator,STORE066,2024-03-29,90899,Active
+EMP00040,Jalsa Vohra,Female,Finance,Accountant,STORE057,2021-11-15,66569,Terminated
+EMP00041,Tara Kamdar,Female,Operations,Operations Executive,STORE085,2017-02-13,118431,Active
+EMP00042,Waida Natt,Female,Inventory,Inventory Manager,STORE039,2019-03-02,27925,Active
+EMP00043,Baghyawati Wadhwa,Male,Operations,Operations Manager,STORE067,2023-06-25,63032,Active
+EMP00044,Meghana Viswanathan,Male,Sales,Sales Associate,STORE083,2024-08-12,76689,Active
+EMP00045,Anthony Parmar,Male,Finance,Finance Manager,STORE080,2021-09-10,37870,Active
+EMP00046,Lavanya Ahuja,Female,Sales,Store Manager,STORE005,2017-04-03,85291,Active
+EMP00047,Arjun Gupta,Male,HR,HR Executive,STORE044,2019-10-12,61308,Active
+EMP00048,Arya Goyal,Male,IT,System Administrator,STORE033,2018-01-02,118329,Active
+EMP00049,Sanya Bandi,Female,IT,System Administrator,STORE009,2021-10-07,116119,Active
+EMP00050,Guneet Sundaram,Female,Finance,Accountant,STORE072,2018-08-21,58526,Active
+EMP00051,Vidhi Savant,Male,HR,HR Manager,STORE078,2019-02-22,74499,Active
+EMP00052,Oni Bhagat,Female,HR,HR Executive,STORE059,2022-05-01,73074,Active
+EMP00053,Yash Ahuja,Female,IT,System Administrator,STORE011,2024-07-01,67255,Active
+EMP00054,Guneet Purohit,Male,Operations,Operations Manager,STORE003,2026-02-17,92075,Active
+EMP00055,Gaurang Parikh,Female,IT,Support Engineer,STORE014,2025-02-13,32774,Active
+EMP00056,Maanas Cheema,Female,HR,HR Manager,STORE083,2021-04-18,104874,Active
+EMP00057,Manya Tank,Male,Operations,Operations Executive,STORE018,2024-09-22,116155,Active
+EMP00058,Kai Aurora,Female,Finance,Accountant,STORE026,2016-08-12,67952,Terminated
+EMP00059,Ekbal Batra,Female,IT,Support Engineer,STORE047,2019-09-03,70589,Active
+EMP00060,Yashoda Narang,Female,Operations,Operations Manager,STORE039,2022-01-02,113338,Active
+EMP00061,Matthew Dube,Male,Operations,Operations Manager,STORE051,2017-06-07,33708,Active
+EMP00062,Xavier Sant,Male,Operations,Operations Manager,STORE096,2019-02-17,74017,Active
+EMP00063,Ekbal More,Male,HR,HR Manager,STORE033,2026-06-18,26534,Active
+EMP00064,Ucchal Shankar,Male,IT,Support Engineer,STORE012,2023-07-31,82508,Active
+EMP00065,Urvi Shukla,Male,IT,Support Engineer,STORE018,2019-02-12,119213,Active
+EMP00066,Janya Pant,Male,Operations,Operations Executive,STORE028,2021-01-08,50620,Active
+EMP00067,Chasmum Nayar,Male,Finance,Finance Manager,STORE028,2017-05-09,56794,Active
+EMP00068,Janya Ratti,Male,Operations,Operations Manager,STORE043,2021-03-16,81175,Active
+EMP00069,William Bora,Male,Sales,Senior Sales Associate,STORE057,2020-02-16,43389,Active
+EMP00070,Ishita Hayre,Female,IT,System Administrator,STORE039,2018-06-13,35701,Active
+EMP00071,Gabriel Varma,Female,HR,HR Executive,STORE052,2022-09-10,41173,Active
+EMP00072,Rachana Nayar,Male,Inventory,Inventory Executive,STORE043,2016-08-12,118011,Active
+EMP00073,Garima Pant,Female,HR,HR Manager,STORE030,2020-12-20,47127,Active
+EMP00074,Gagan Hegde,Female,IT,System Administrator,STORE009,2023-07-08,99513,Active
+EMP00075,Pushti Viswanathan,Female,Finance,Finance Manager,STORE087,2025-11-29,48640,Active
+EMP00076,Daniel Koshy,Male,HR,HR Manager,STORE033,2024-11-20,99869,Active
+EMP00077,Jackson Shankar,Male,Sales,Senior Sales Associate,STORE089,2018-03-11,74410,Active
+EMP00078,Guneet Thaman,Male,Operations,Operations Manager,STORE090,2018-12-29,45846,Active
+EMP00079,Anmol Ravel,Male,Operations,Operations Manager,STORE037,2026-07-11,38726,Active
+EMP00080,Darpan Kala,Female,Operations,Operations Executive,STORE065,2018-05-03,102448,Active
+EMP00081,Ikbal Tailor,Male,Finance,Accountant,STORE011,2017-08-11,64200,Active
+EMP00082,Warjas Nagy,Female,IT,System Administrator,STORE011,2019-04-12,49619,Active
+EMP00083,Aryan Khare,Male,Inventory,Inventory Executive,STORE049,2024-10-21,117604,Active
+EMP00084,Prisha Sachdeva,Female,IT,System Administrator,STORE084,2026-03-19,36725,Active
+EMP00085,Dipta Kade,Female,Finance,Finance Manager,STORE068,2025-05-17,112373,Active
+EMP00086,Hardik Krishnamurthy,Male,Inventory,Inventory Executive,STORE004,2018-01-17,91028,Active
+EMP00087,Jeremiah Reddy,Male,HR,HR Manager,STORE003,2024-12-24,26793,Active
+EMP00088,Vrishti Cheema,Male,Inventory,Inventory Executive,STORE061,2020-07-25,110398,Active
+EMP00089,Isha Sengupta,Female,Sales,Store Manager,STORE069,2017-08-12,114981,Active
+EMP00090,Eiravati Padmanabhan,Male,Sales,Senior Sales Associate,STORE024,2026-06-13,32191,Active
+EMP00091,Daniel Banerjee,Male,Finance,Finance Manager,STORE096,2023-07-13,33281,Active
+EMP00092,Sarthak Hora,Male,Operations,Operations Manager,STORE023,2017-08-17,60574,Active
+EMP00093,Sanaya Nigam,Female,Sales,Senior Sales Associate,STORE050,2020-11-09,43047,Active
+EMP00094,Sneha Mand,Male,IT,System Administrator,STORE059,2016-08-08,73531,Terminated
+EMP00095,Manbir Hayer,Male,Finance,Finance Manager,STORE028,2024-11-16,104937,Active
+EMP00096,Urishilla Kuruvilla,Female,Sales,Sales Associate,STORE068,2026-07-19,30193,Active
+EMP00097,Chandani Keer,Female,Finance,Accountant,STORE077,2026-03-26,63696,Active
+EMP00098,Krishna Roy,Female,Inventory,Inventory Executive,STORE043,2017-12-17,40225,Active
+EMP00099,Ishita Patil,Male,Inventory,Inventory Executive,STORE076,2019-03-24,100575,Active
+EMP00100,Hiral Kapoor,Male,IT,Support Engineer,STORE058,2025-02-20,27641,Active
+EMP00101,Lucky Saini,Female,Inventory,Inventory Executive,STORE071,2023-12-01,43545,Active
+EMP00102,Rayaan Chawla,Female,Sales,Senior Sales Associate,STORE002,2016-10-24,39747,Active
+EMP00103,Kavya Kurian,Female,Sales,Store Manager,STORE055,2018-12-23,108413,Active
+EMP00104,Balveer Kari,Male,Finance,Accountant,STORE046,2021-05-21,34733,Active
+EMP00105,Warjas Bawa,Male,Finance,Finance Manager,STORE007,2018-07-22,31621,Active
+EMP00106,Jasmit Prakash,Female,Finance,Finance Manager,STORE001,2026-06-02,54190,Active
+EMP00107,Saanvi Keer,Female,Inventory,Inventory Executive,STORE045,2023-08-04,54157,Active
+EMP00108,Devika Chand,Male,IT,Support Engineer,STORE034,2024-02-21,92593,Active
+EMP00109,Mohammed Bhasin,Female,Finance,Accountant,STORE016,2023-11-06,55297,Active
+EMP00110,Aarini Bhargava,Male,HR,HR Executive,STORE029,2023-06-13,39101,On Leave
+EMP00111,Wazir Murty,Female,Inventory,Inventory Executive,STORE082,2019-10-09,32553,Active
+EMP00112,Yuvraj Bahl,Male,Sales,Sales Associate,STORE004,2020-08-29,108325,Active
+EMP00113,Vamakshi Dey,Male,Finance,Accountant,STORE076,2026-05-19,57446,Active
+EMP00114,Rehaan Banerjee,Female,HR,HR Manager,STORE017,2020-10-28,55438,Active
+EMP00115,Gavin Seshadri,Male,HR,HR Executive,STORE067,2020-06-05,110098,Active
+EMP00116,Osha Kala,Female,Sales,Senior Sales Associate,STORE077,2023-05-12,27150,Active
+EMP00117,Netra Muni,Male,Operations,Operations Executive,STORE058,2022-10-08,71269,Active
+EMP00118,Aradhana Shanker,Male,Operations,Operations Manager,STORE074,2016-07-23,110033,Active
+EMP00119,Aachal Krishnamurthy,Female,Inventory,Inventory Executive,STORE067,2020-07-13,92170,Active
+EMP00120,Jatin Jain,Male,IT,System Administrator,STORE055,2024-04-20,50840,Active
+EMP00121,Dakshesh Rao,Female,HR,HR Executive,STORE059,2025-09-06,109028,Active
+EMP00122,Chakradev Magar,Female,Sales,Sales Associate,STORE012,2016-11-08,61046,Active
+EMP00123,Samar Bahl,Male,Operations,Operations Manager,STORE066,2016-09-29,52886,Active
+EMP00124,Charvi Kamdar,Male,HR,HR Manager,STORE094,2020-07-19,42020,Terminated
+EMP00125,Janaki Varty,Female,IT,System Administrator,STORE067,2019-01-17,98923,Active
+EMP00126,Janani Rattan,Female,Inventory,Inventory Manager,STORE012,2024-08-13,81497,On Leave
+EMP00127,Chaitaly Yogi,Female,Finance,Finance Manager,STORE038,2021-12-05,36808,Active
+EMP00128,Benjamin Prabhu,Female,Operations,Operations Executive,STORE057,2017-02-12,106966,Active
+EMP00129,Triya Agarwal,Female,IT,System Administrator,STORE024,2016-08-18,90152,Active
+EMP00130,Rajeshri Mukherjee,Female,HR,HR Manager,STORE043,2019-12-23,82176,Active
+EMP00131,Unni Bali,Female,Finance,Accountant,STORE079,2022-09-08,48223,Active
+EMP00132,Eshana Ganesan,Male,IT,System Administrator,STORE016,2024-01-06,113682,Active
+EMP00133,Logan Date,Male,Finance,Finance Manager,STORE004,2022-03-09,58455,Active
+EMP00134,Reva Desai,Male,Inventory,Inventory Executive,STORE042,2023-01-03,110068,Active
+EMP00135,Ronith Verma,Male,HR,HR Executive,STORE076,2022-02-21,66952,Active
+EMP00136,Pranav Rajan,Female,Sales,Senior Sales Associate,STORE099,2025-04-22,113180,Active
+EMP00137,Tristan Balan,Male,Sales,Senior Sales Associate,STORE028,2024-11-24,119210,Active
+EMP00138,Gaurav Khurana,Male,Sales,Senior Sales Associate,STORE055,2017-06-08,67786,Active
+EMP00139,Urishilla Hayer,Male,Operations,Operations Executive,STORE009,2023-06-28,47736,Active
+EMP00140,Jeet Chawla,Female,HR,HR Manager,STORE051,2024-03-08,46287,Active
+EMP00141,Chakrika Hayre,Male,Sales,Sales Associate,STORE035,2023-08-08,51340,Active
+EMP00142,Neelima Mahal,Female,Operations,Operations Manager,STORE007,2025-04-09,28066,Active
+EMP00143,Chavvi Chhabra,Male,HR,HR Executive,STORE046,2025-10-26,109085,Active
+EMP00144,Amara Kurian,Male,Inventory,Inventory Manager,STORE076,2019-01-06,67887,Active
+EMP00145,Upma Sachar,Male,Sales,Senior Sales Associate,STORE094,2026-01-25,29001,Active
+EMP00146,Harish Mitter,Female,Sales,Senior Sales Associate,STORE033,2019-01-13,92524,Active
+EMP00147,Kai Kadakia,Male,Sales,Store Manager,STORE001,2023-12-09,114066,Active
+EMP00148,Dipta Pau,Male,Sales,Sales Associate,STORE079,2018-06-13,54227,Active
+EMP00149,Shivani Srivastava,Female,HR,HR Executive,STORE070,2022-01-31,117504,Active
+EMP00150,Ishwar Varghese,Male,HR,HR Manager,STORE061,2018-08-28,37076,Active
+EMP00151,Isha Dave,Female,Sales,Senior Sales Associate,STORE034,2019-12-28,31970,Active
+EMP00152,Nandini Verma,Male,IT,Support Engineer,STORE030,2026-02-22,118918,Active
+EMP00153,Gautami Manne,Female,IT,System Administrator,STORE017,2024-04-29,93603,Active
+EMP00154,Ekalinga Virk,Male,Finance,Finance Manager,STORE022,2018-06-24,87962,Active
+EMP00155,Simon Jaggi,Male,Sales,Store Manager,STORE054,2018-01-03,80660,On Leave
+EMP00156,Adya Nair,Male,Finance,Accountant,STORE056,2025-11-14,105403,Active
+EMP00157,Daksh Bansal,Male,HR,HR Executive,STORE097,2022-07-15,46307,Active
+EMP00158,Kavya Som,Male,Sales,Senior Sales Associate,STORE066,2025-09-29,113580,Active
+EMP00159,Sara Aurora,Male,Sales,Sales Associate,STORE012,2024-04-23,96876,Active
+EMP00160,Rajata Peri,Male,HR,HR Executive,STORE050,2021-01-15,31408,Active
+EMP00161,Bhavna Mani,Female,Operations,Operations Executive,STORE080,2021-01-25,74137,Active
+EMP00162,Bimala Ratti,Male,Sales,Sales Associate,STORE030,2020-03-02,42157,Active
+EMP00163,Qasim Mohan,Female,Inventory,Inventory Manager,STORE031,2022-09-18,49026,Active
+EMP00164,Caleb Suri,Male,Finance,Accountant,STORE004,2023-04-25,79356,Active
+EMP00165,Sathvik Rajan,Male,Finance,Accountant,STORE089,2017-11-10,112154,Active
+EMP00166,Dayita Palla,Male,Finance,Finance Manager,STORE100,2026-07-13,74349,Active
+EMP00167,Jagvi Upadhyay,Male,HR,HR Executive,STORE100,2017-02-10,68935,Active
+EMP00168,Frado Bhatnagar,Male,Inventory,Inventory Executive,STORE083,2021-05-05,72153,Active
+EMP00169,Warda Sinha,Female,Inventory,Inventory Executive,STORE048,2025-05-09,94965,On Leave
+EMP00170,Hiral Agarwal,Female,IT,Support Engineer,STORE080,2022-02-17,93141,Active
+EMP00171,Mohini Palan,Male,Operations,Operations Executive,STORE038,2020-06-02,27717,On Leave
+EMP00172,Jai Tandon,Male,Finance,Accountant,STORE082,2023-05-20,64510,Active
+EMP00173,Yashvi Suresh,Female,IT,Support Engineer,STORE086,2023-12-24,89362,Active
+EMP00174,Amara Sama,Male,HR,HR Manager,STORE016,2026-06-18,44274,Active
+EMP00175,Leena Natarajan,Female,Finance,Accountant,STORE087,2025-07-09,65986,Active
+EMP00176,Janaki Pau,Male,IT,Support Engineer,STORE064,2019-10-09,65283,Active
+EMP00177,Balvan Parsa,Male,Operations,Operations Executive,STORE050,2024-07-31,109295,Active
+EMP00178,Daniel Hari,Female,Sales,Senior Sales Associate,STORE025,2026-06-19,105391,Active
+EMP00179,Sachi Garg,Female,Operations,Operations Manager,STORE096,2019-11-27,52345,Active
+EMP00180,Kamya Hegde,Male,Finance,Finance Manager,STORE091,2023-04-19,110098,Active
+EMP00181,Bina Khanna,Male,IT,System Administrator,STORE083,2026-05-24,102472,Active
+EMP00182,Rachita Badal,Male,HR,HR Executive,STORE043,2023-07-05,103788,Active
+EMP00183,Triveni Nadkarni,Female,Sales,Sales Associate,STORE100,2023-12-24,60605,Active
+EMP00184,Tanmayi Parsa,Female,Finance,Accountant,STORE050,2021-04-19,63955,Active
+EMP00185,Zayyan Nanda,Female,Inventory,Inventory Executive,STORE004,2019-02-18,86022,Active
+EMP00186,Pranav Karan,Female,HR,HR Manager,STORE080,2017-05-20,47837,Active
+EMP00187,Om Kakar,Male,Sales,Store Manager,STORE001,2021-04-24,38310,Active
+EMP00188,Ansh Sridhar,Female,IT,Support Engineer,STORE021,2022-06-16,114510,Active
+EMP00189,Aashi Ramanathan,Male,IT,Support Engineer,STORE018,2019-02-21,103640,Active
+EMP00190,Rishi Chaudhari,Male,Operations,Operations Executive,STORE049,2022-06-10,37045,Active
+EMP00191,Ganga Krishnan,Female,HR,HR Manager,STORE017,2024-05-15,87911,Active
+EMP00192,Vasudha Bera,Male,Operations,Operations Executive,STORE072,2024-06-15,51396,Active
+EMP00193,Chakradev Chaudhry,Female,IT,Support Engineer,STORE031,2024-03-15,91379,Active
+EMP00194,Harshil Barad,Female,Finance,Accountant,STORE065,2019-08-26,48624,Active
+EMP00195,Mitesh Nadkarni,Male,IT,Support Engineer,STORE011,2019-08-11,56429,Active
+EMP00196,Samaksh Mahal,Male,Sales,Senior Sales Associate,STORE023,2017-06-17,102738,Terminated
+EMP00197,Qadim Sarin,Female,IT,System Administrator,STORE087,2019-05-20,69824,Active
+EMP00198,Libni Saha,Male,HR,HR Manager,STORE047,2016-11-29,117124,Active
+EMP00199,Netra Edwin,Female,Sales,Sales Associate,STORE001,2020-02-01,45902,Active
+EMP00200,Vedhika Biswas,Female,Sales,Senior Sales Associate,STORE091,2026-01-28,87111,Active
+EMP00201,Ranbir Ahluwalia,Female,IT,System Administrator,STORE067,2023-04-16,31849,Active
+EMP00202,Anya Agrawal,Male,Sales,Sales Associate,STORE038,2026-06-03,103819,Active
+EMP00203,Ekaja Handa,Male,Finance,Finance Manager,STORE019,2024-10-05,27304,Active
+EMP00204,Frado Sampath,Female,Finance,Finance Manager,STORE074,2018-08-09,34498,On Leave
+EMP00205,Unnati Singhal,Female,Sales,Senior Sales Associate,STORE079,2020-07-20,68466,Active
+EMP00206,Dhruv Chokshi,Male,HR,HR Manager,STORE035,2023-07-01,91670,Active
+EMP00207,Nisha Vasa,Female,Sales,Sales Associate,STORE050,2016-09-19,103226,Active
+EMP00208,Faqid Krishna,Female,Operations,Operations Manager,STORE015,2016-09-25,94114,Active
+EMP00209,Hritik Borah,Female,Operations,Operations Manager,STORE037,2021-08-14,94613,Active
+EMP00210,Hiral Balay,Male,IT,System Administrator,STORE022,2024-05-28,35042,Active
+EMP00211,Aarini Hora,Male,Inventory,Inventory Manager,STORE093,2024-06-18,32845,Active
+EMP00212,Oliver Thakkar,Male,HR,HR Executive,STORE058,2021-01-17,64095,Terminated
+EMP00213,Bishakha Sami,Male,HR,HR Executive,STORE040,2022-02-22,86511,Active
+EMP00214,Sachi Bedi,Female,Sales,Senior Sales Associate,STORE002,2022-01-27,29312,Active
+EMP00215,Bishakha Deep,Male,Finance,Finance Manager,STORE070,2018-07-17,104172,Terminated
+EMP00216,Anika Gala,Female,Operations,Operations Executive,STORE091,2017-01-07,82386,Active
+EMP00217,Anthony Shere,Female,Sales,Store Manager,STORE019,2016-10-18,39217,On Leave
+EMP00218,Arin Pandya,Female,HR,HR Manager,STORE044,2018-03-18,84241,Active
+EMP00219,Orinder Kashyap,Female,Finance,Accountant,STORE035,2022-08-04,41527,Active
+EMP00220,Joshua Bhargava,Female,Finance,Finance Manager,STORE023,2017-06-06,46408,Active
+EMP00221,Anthony Karan,Male,Inventory,Inventory Manager,STORE082,2023-06-26,86775,Active
+EMP00222,Anya Lata,Female,HR,HR Executive,STORE077,2020-01-08,101766,Active
+EMP00223,Gaurav Goda,Female,Operations,Operations Manager,STORE087,2017-07-16,55879,Terminated
+EMP00224,Gavin Kapoor,Male,HR,HR Manager,STORE025,2019-11-17,64451,Active
+EMP00225,Fariq Jain,Male,Sales,Senior Sales Associate,STORE073,2021-08-24,73891,Active
+EMP00226,Bachittar Chakrabarti,Male,Finance,Finance Manager,STORE047,2024-11-20,91454,Active
+EMP00227,Krishna Mall,Male,Operations,Operations Executive,STORE037,2024-02-16,103781,Active
+EMP00228,Urmi Mangal,Male,Finance,Finance Manager,STORE075,2018-07-13,70395,Active
+EMP00229,Hiral Raghavan,Male,HR,HR Manager,STORE074,2020-04-11,98322,Active
+EMP00230,Neelima Prasad,Female,Finance,Finance Manager,STORE046,2017-01-10,81119,Active
+EMP00231,Qushi Tailor,Male,HR,HR Executive,STORE094,2021-08-14,108652,Active
+EMP00232,Parth Ramesh,Female,Sales,Senior Sales Associate,STORE056,2025-06-20,98831,Active
+EMP00233,Wridesh Devan,Male,IT,Support Engineer,STORE071,2024-12-22,42267,Active
+EMP00234,Kalpit Kanda,Male,Sales,Store Manager,STORE061,2024-01-22,84994,Active
+EMP00235,Vasudha Sawhney,Male,IT,Support Engineer,STORE059,2019-09-22,48548,Active
+EMP00236,Tanmayi Mall,Male,Inventory,Inventory Executive,STORE073,2025-12-03,107360,Active
+EMP00237,Aachal Wali,Male,Sales,Store Manager,STORE075,2016-10-28,75119,Active
+EMP00238,Kashvi Raghavan,Male,IT,System Administrator,STORE063,2021-04-26,96062,Active
+EMP00239,Vansha Thakkar,Male,Finance,Accountant,STORE053,2018-10-12,109286,Active
+EMP00240,Victor Kant,Male,Sales,Store Manager,STORE068,2020-02-22,53612,Active
+EMP00241,Daniel Sanghvi,Female,Inventory,Inventory Executive,STORE068,2017-05-26,37026,Active
+EMP00242,Yuvraj Lad,Male,Finance,Finance Manager,STORE008,2024-05-14,99295,Active
+EMP00243,Amara Nazareth,Male,Finance,Finance Manager,STORE037,2025-06-11,43140,Terminated
+EMP00244,Frederick Seshadri,Female,Finance,Accountant,STORE092,2018-05-12,71668,Active
+EMP00245,Ranbir Gokhale,Male,Inventory,Inventory Executive,STORE082,2017-11-27,76285,Active
+EMP00246,Lopa Dey,Male,IT,Support Engineer,STORE044,2016-10-12,45617,Active
+EMP00247,Yatan Jha,Male,Finance,Finance Manager,STORE074,2017-02-11,68801,Active
+EMP00248,Vaishnavi Deshmukh,Female,Operations,Operations Manager,STORE030,2017-12-02,58652,Active
+EMP00249,Theodore Mitra,Male,Finance,Finance Manager,STORE021,2018-12-08,85341,Active
+EMP00250,Reva Doctor,Female,Inventory,Inventory Executive,STORE086,2016-10-20,105791,Active
+EMP00251,Bhanumati Balakrishnan,Female,Finance,Finance Manager,STORE042,2019-01-24,50181,Active
+EMP00252,Brinda Palla,Male,Inventory,Inventory Executive,STORE075,2017-10-31,64308,Active
+EMP00253,Viraj Garg,Male,Operations,Operations Manager,STORE039,2020-04-25,38350,Active
+EMP00254,Nitara Bera,Female,Finance,Accountant,STORE077,2022-02-26,85765,Active
+EMP00255,Elijah Varma,Male,Operations,Operations Manager,STORE071,2021-11-03,46760,Active
+EMP00256,Chandani Balay,Female,Finance,Accountant,STORE021,2018-03-14,33468,On Leave
+EMP00257,Ekansh Rajagopalan,Female,IT,System Administrator,STORE042,2018-09-07,32891,Active
+EMP00258,Unni Dugar,Female,Inventory,Inventory Executive,STORE090,2020-10-11,32368,Active
+EMP00259,Krisha Balasubramanian,Male,Inventory,Inventory Executive,STORE049,2022-10-11,63059,Active
+EMP00260,Yauvani Wable,Male,Operations,Operations Executive,STORE048,2025-12-14,97518,Active
+EMP00261,Deepa Devi,Female,HR,HR Executive,STORE019,2021-09-29,118756,Active
+EMP00262,Gaurangi Shere,Male,Operations,Operations Manager,STORE084,2021-01-30,92537,Active
+EMP00263,Prisha Sawhney,Female,Operations,Operations Manager,STORE027,2020-04-25,53468,Active
+EMP00264,Nitara Seshadri,Male,IT,System Administrator,STORE092,2019-07-22,40963,Active
+EMP00265,Tanmayi Jhaveri,Male,Operations,Operations Executive,STORE076,2017-08-01,96694,Active
+EMP00266,Darpan Kale,Female,Operations,Operations Manager,STORE014,2016-09-04,33819,Active
+EMP00267,Geetika De,Female,HR,HR Manager,STORE013,2020-08-14,49674,Terminated
+EMP00268,Anusha Bhagat,Female,Finance,Finance Manager,STORE061,2016-10-21,66490,Active
+EMP00269,Xalak Kaur,Male,Sales,Senior Sales Associate,STORE050,2026-03-31,95905,Active
+EMP00270,Liam Nori,Female,HR,HR Executive,STORE013,2024-05-05,117148,Active
+EMP00271,Ekaraj Halder,Female,Operations,Operations Executive,STORE045,2024-01-17,113785,Active
+EMP00272,Tanveer Doshi,Male,IT,Support Engineer,STORE023,2025-06-12,38930,Active
+EMP00273,Orinder Gandhi,Female,HR,HR Executive,STORE067,2019-07-15,30382,Active
+EMP00274,Pushti Padmanabhan,Female,HR,HR Executive,STORE016,2024-08-05,80194,Active
+EMP00275,Yatin Bahl,Female,Inventory,Inventory Manager,STORE024,2025-07-25,104075,Active
+EMP00276,Ati Rau,Male,Sales,Store Manager,STORE042,2022-10-12,102002,Active
+EMP00277,Gabriel Thaman,Male,HR,HR Manager,STORE061,2024-05-07,82732,Active
+EMP00278,Vincent Yadav,Female,Operations,Operations Manager,STORE062,2020-04-17,45015,Active
+EMP00279,Chandani Palla,Male,HR,HR Executive,STORE051,2025-01-20,88302,Active
+EMP00280,Omaja Kala,Female,IT,Support Engineer,STORE033,2021-04-02,27711,Active
+EMP00281,Eshana Sarraf,Male,Finance,Finance Manager,STORE011,2020-04-08,53021,Active
+EMP00282,Nitesh Dani,Male,HR,HR Executive,STORE051,2023-02-05,51351,Active
+EMP00283,Tripti Gala,Female,IT,Support Engineer,STORE052,2020-04-28,95056,Active
+EMP00284,Pooja Madan,Female,HR,HR Executive,STORE098,2016-11-27,80465,Active
+EMP00285,Bachittar Lalla,Male,Finance,Accountant,STORE016,2025-12-20,101892,Active
+EMP00286,Qushi Babu,Female,IT,Support Engineer,STORE042,2021-11-13,110259,Active
+EMP00287,Ikbal Sinha,Female,Sales,Store Manager,STORE092,2021-04-18,104749,Active
+EMP00288,Anusha Murthy,Female,IT,System Administrator,STORE090,2021-09-07,113297,Active
+EMP00289,Brijesh Mani,Female,Sales,Senior Sales Associate,STORE048,2022-02-16,75528,Active
+EMP00290,Nicholas Vora,Female,Operations,Operations Manager,STORE079,2017-02-01,67793,Active
+EMP00291,Nirja Dutt,Male,Operations,Operations Manager,STORE043,2024-09-14,81173,Terminated
+EMP00292,Yug Narula,Female,Finance,Finance Manager,STORE004,2019-06-24,118837,Active
+EMP00293,Qadim Pandit,Male,Inventory,Inventory Executive,STORE006,2022-02-22,88549,Active
+EMP00294,Aishani Upadhyay,Female,Operations,Operations Executive,STORE031,2022-02-08,43911,Active
+EMP00295,Vasudha Sampath,Male,Inventory,Inventory Manager,STORE027,2023-12-14,57501,Active
+EMP00296,Samesh Prashad,Female,Sales,Senior Sales Associate,STORE014,2022-01-21,74380,Active
+EMP00297,Shivani Kakar,Male,Operations,Operations Executive,STORE046,2019-12-09,46396,Active
+EMP00298,Arin Lala,Female,Operations,Operations Manager,STORE056,2021-11-17,117194,Active
+EMP00299,Robert Bala,Male,Finance,Accountant,STORE094,2017-11-26,34101,Active
+EMP00300,Harish Mani,Female,Sales,Senior Sales Associate,STORE015,2019-11-06,66017,Active
+EMP00301,Yashvi Nagi,Male,Finance,Accountant,STORE045,2026-03-22,36709,Terminated
+EMP00302,Shaurya Sarkar,Male,Sales,Senior Sales Associate,STORE018,2024-04-29,85723,Active
+EMP00303,Wazir Lalla,Female,Finance,Finance Manager,STORE062,2026-06-05,74271,Active
+EMP00304,Chandani Bahri,Female,Inventory,Inventory Executive,STORE066,2023-11-12,96382,Active
+EMP00305,Madhav Vyas,Female,HR,HR Executive,STORE026,2020-07-17,53111,On Leave
+EMP00306,Chasmum Dugal,Male,Inventory,Inventory Executive,STORE032,2026-02-11,113476,Active
+EMP00307,Yamini Bala,Male,Inventory,Inventory Executive,STORE096,2023-06-02,71452,Active
+EMP00308,Ayushman Halder,Male,Sales,Store Manager,STORE034,2025-02-02,86765,Active
+EMP00309,Pushti Sama,Male,Finance,Accountant,STORE046,2020-01-11,77849,Active
+EMP00310,Qabil Krishnamurthy,Male,Operations,Operations Manager,STORE002,2017-03-26,34137,Active
+EMP00311,Aryan Bava,Male,Operations,Operations Manager,STORE056,2023-12-28,90888,Terminated
+EMP00312,Warda Parikh,Male,Finance,Accountant,STORE057,2017-11-09,71659,Active
+EMP00313,Turvi Palla,Female,Operations,Operations Manager,STORE028,2022-09-03,87120,Active
+EMP00314,Yashawini Nazareth,Male,Inventory,Inventory Manager,STORE075,2020-09-01,105313,Terminated
+EMP00315,Tamanna Cheema,Female,HR,HR Manager,STORE044,2023-01-18,69619,Active
+EMP00316,Gunbir Aggarwal,Female,Inventory,Inventory Executive,STORE009,2019-01-03,68452,Active
+EMP00317,Wyatt Bala,Male,Operations,Operations Manager,STORE088,2018-04-18,98019,Active
+EMP00318,Alka Bhagat,Female,Operations,Operations Executive,STORE082,2021-09-27,107565,Active
+EMP00319,Gautam Chawla,Male,Sales,Store Manager,STORE060,2019-02-27,103939,Active
+EMP00320,Adya Zacharia,Female,IT,System Administrator,STORE063,2023-08-16,118964,Active
+EMP00321,Shivani Krishnamurthy,Male,Sales,Senior Sales Associate,STORE068,2022-03-08,73079,Active
+EMP00322,Sudiksha Magar,Female,Operations,Operations Manager,STORE065,2019-06-05,96192,Active
+EMP00323,Mason Narasimhan,Female,Sales,Store Manager,STORE012,2022-07-02,85032,Active
+EMP00324,Diya Sha,Male,Sales,Sales Associate,STORE010,2026-06-03,109907,Active
+EMP00325,Jyoti Mander,Male,Inventory,Inventory Manager,STORE006,2023-02-17,94298,Active
+EMP00326,Charan Dalal,Male,Sales,Store Manager,STORE090,2022-01-02,52180,On Leave
+EMP00327,Balhaar Zachariah,Female,Operations,Operations Manager,STORE089,2025-03-28,62894,Active
+EMP00328,Tanish Gandhi,Male,Inventory,Inventory Manager,STORE091,2024-08-23,56311,Active
+EMP00329,Hemang Gole,Male,IT,Support Engineer,STORE076,2017-05-08,90086,Active
+EMP00330,Anmol Sathe,Male,Finance,Accountant,STORE100,2018-08-31,89437,Active
+EMP00331,Vrishti Goswami,Male,IT,System Administrator,STORE081,2025-08-14,87731,Terminated
+EMP00332,Naveen Morar,Female,Finance,Accountant,STORE095,2017-11-25,27586,Active
+EMP00333,Yutika Dash,Female,Inventory,Inventory Executive,STORE056,2025-03-26,110454,Active
+EMP00334,Indali Singh,Female,Operations,Operations Executive,STORE049,2021-11-15,81047,On Leave
+EMP00335,Rachana Edwin,Male,HR,HR Executive,STORE008,2017-04-13,98410,Active
+EMP00336,Ishani Dugal,Female,Operations,Operations Manager,STORE092,2018-02-19,85133,Active
+EMP00337,Pallavi Kari,Male,IT,Support Engineer,STORE046,2023-12-10,77428,Active
+EMP00338,Anay Pall,Male,IT,Support Engineer,STORE012,2025-06-12,89188,Active
+EMP00339,Aadhya Dugal,Male,Sales,Store Manager,STORE044,2023-10-29,109438,Active
+EMP00340,Arjun Peri,Female,HR,HR Manager,STORE002,2024-10-23,53484,Active
+EMP00341,Arya Contractor,Female,Inventory,Inventory Manager,STORE075,2016-10-29,46512,Active
+EMP00342,Jhalak Ganesh,Male,Operations,Operations Manager,STORE030,2022-08-20,44412,Terminated
+EMP00343,Raghav Nadig,Male,Sales,Store Manager,STORE094,2021-11-06,58067,Active
+EMP00344,Reyansh Shenoy,Female,IT,System Administrator,STORE007,2024-04-20,49281,Active
+EMP00345,Pavani Tella,Female,Sales,Sales Associate,STORE036,2020-11-07,110794,Active
+EMP00346,Logan Borde,Female,Finance,Accountant,STORE074,2022-09-25,34608,On Leave
+EMP00347,Sai Varty,Female,Operations,Operations Executive,STORE001,2026-03-13,25733,Active
+EMP00348,Nirja Pillay,Female,Finance,Accountant,STORE029,2022-05-31,72830,Active
+EMP00349,Jatin Lalla,Male,IT,Support Engineer,STORE079,2019-02-18,112546,Active
+EMP00350,Zarna Varghese,Female,Inventory,Inventory Manager,STORE032,2018-12-08,34985,Active
+EMP00351,Yadavi Goel,Male,Sales,Store Manager,STORE049,2020-01-31,52636,Active
+EMP00352,Manbir Karpe,Male,Finance,Finance Manager,STORE039,2022-03-23,113085,Active
+EMP00353,Neha Borde,Male,Finance,Finance Manager,STORE067,2016-10-29,101891,Active
+EMP00354,Frederick Gara,Male,Finance,Accountant,STORE051,2025-04-17,75943,Active
+EMP00355,Nilima Bassi,Male,HR,HR Manager,STORE060,2025-07-02,72907,Active
+EMP00356,Chakradhar Mukhopadhyay,Female,HR,HR Executive,STORE014,2023-04-17,85963,Active
+EMP00357,Garima Pandit,Male,Inventory,Inventory Manager,STORE046,2020-05-31,51746,On Leave
+EMP00358,Siya Kannan,Female,Inventory,Inventory Manager,STORE099,2017-05-16,48444,Active
+EMP00359,Ekansh Jaggi,Female,Inventory,Inventory Manager,STORE036,2016-11-24,36852,On Leave
+EMP00360,Onkar Tata,Male,IT,Support Engineer,STORE094,2017-04-27,56999,Active
+EMP00361,Amruta Brahmbhatt,Female,IT,System Administrator,STORE050,2021-11-05,95715,Active
+EMP00362,Siddharth Lad,Male,IT,System Administrator,STORE036,2016-09-27,112797,Active
+EMP00363,Watika Bera,Male,Sales,Store Manager,STORE003,2020-02-16,63410,On Leave
+EMP00364,Udyati Kibe,Male,IT,Support Engineer,STORE010,2021-02-19,53542,Active
+EMP00365,Nicholas Keer,Male,Finance,Finance Manager,STORE082,2020-10-07,58461,On Leave
+EMP00366,Riya Ben,Male,Finance,Accountant,STORE077,2018-07-24,52038,Active
+EMP00367,Quincy Subramaniam,Female,Finance,Accountant,STORE091,2020-10-14,35211,Active
+EMP00368,Yahvi Shenoy,Male,IT,System Administrator,STORE056,2019-12-06,66315,Active
+EMP00369,Krisha Sibal,Female,HR,HR Manager,STORE043,2021-12-04,112766,Active
+EMP00370,Ekbal Gade,Female,Operations,Operations Manager,STORE094,2025-02-02,60717,Active
+EMP00371,Harita Dalal,Male,Operations,Operations Executive,STORE086,2019-02-14,80190,Terminated
+EMP00372,Nidra Batta,Female,IT,Support Engineer,STORE051,2024-07-12,118629,Active
+EMP00373,Rehaan Naik,Male,Operations,Operations Manager,STORE067,2025-11-13,26694,Active
+EMP00374,Jairaj Shanker,Male,Inventory,Inventory Manager,STORE029,2019-09-04,83181,Active
+EMP00375,Chatura Keer,Female,Finance,Accountant,STORE064,2020-03-20,39789,Active
+EMP00376,Panini Morar,Male,Sales,Senior Sales Associate,STORE013,2017-09-16,100335,Active
+EMP00377,Timothy Bal,Female,Inventory,Inventory Manager,STORE013,2018-05-26,46650,Terminated
+EMP00378,Ranveer Bobal,Male,Finance,Accountant,STORE064,2019-04-22,108991,Active
+EMP00379,Quincy Kala,Male,HR,HR Manager,STORE029,2018-11-17,70284,Active
+EMP00380,Panini Sathe,Male,HR,HR Executive,STORE072,2018-06-24,45042,Active
+EMP00381,Mahika Virk,Female,IT,Support Engineer,STORE042,2020-01-24,40458,Active
+EMP00382,Samuel Goel,Female,Inventory,Inventory Manager,STORE089,2024-02-14,96058,Active
+EMP00383,Chandran Kata,Male,Inventory,Inventory Manager,STORE079,2024-03-27,63184,Active
+EMP00384,Nilima Bora,Male,Inventory,Inventory Manager,STORE046,2018-07-10,54231,Active
+EMP00385,Finn Radhakrishnan,Female,IT,System Administrator,STORE008,2026-07-13,54476,Active
+EMP00386,Balveer Sunder,Female,IT,System Administrator,STORE019,2025-06-07,102395,Active
+EMP00387,Oliver Dada,Male,Inventory,Inventory Executive,STORE071,2020-10-26,116826,Active
+EMP00388,Shravya Varkey,Male,Sales,Senior Sales Associate,STORE067,2020-08-24,69838,Active
+EMP00389,Ishanvi Chandran,Male,Inventory,Inventory Executive,STORE063,2025-05-24,108333,Active
+EMP00390,Zarna Edwin,Female,IT,Support Engineer,STORE004,2023-02-26,32666,Active
+EMP00391,Lekha Sahni,Female,Sales,Senior Sales Associate,STORE016,2024-02-11,42048,Active
+EMP00392,Oviya Chawla,Male,IT,System Administrator,STORE073,2021-06-25,92610,Active
+EMP00393,Pahal Parmer,Female,HR,HR Manager,STORE084,2022-06-03,80009,Active
+EMP00394,Balveer Kuruvilla,Female,IT,System Administrator,STORE053,2022-02-07,68421,Active
+EMP00395,Faqid Dhillon,Female,IT,System Administrator,STORE024,2023-07-23,68775,Active
+EMP00396,Irya Mani,Male,Finance,Finance Manager,STORE092,2025-10-30,75633,Active
+EMP00397,Zansi Dhingra,Female,IT,Support Engineer,STORE056,2018-11-29,107084,Active
+EMP00398,Rudra Ratta,Male,Sales,Store Manager,STORE099,2026-06-26,29681,Active
+EMP00399,Ethan Dayal,Female,IT,System Administrator,STORE065,2021-04-28,111910,Terminated
+EMP00400,Januja Desai,Female,Finance,Finance Manager,STORE012,2025-02-15,32602,Active
+EMP00401,Idika Mand,Male,Inventory,Inventory Manager,STORE071,2022-10-15,77124,Active
+EMP00402,Waida Basak,Male,Operations,Operations Executive,STORE051,2016-12-10,78458,Active
+EMP00403,Darika Basu,Female,Finance,Finance Manager,STORE079,2018-01-15,113554,Active
+EMP00404,Tristan Lalla,Male,IT,System Administrator,STORE079,2017-10-10,89347,Active
+EMP00405,Oviya Sant,Female,IT,System Administrator,STORE015,2018-09-20,95788,Active
+EMP00406,Ekiya Padmanabhan,Male,Operations,Operations Manager,STORE008,2022-08-07,64524,Active
+EMP00407,Anya Deshmukh,Female,Inventory,Inventory Manager,STORE045,2025-06-04,34234,Active
+EMP00408,Reyansh Bakshi,Male,Inventory,Inventory Manager,STORE083,2026-05-31,82835,Active
+EMP00409,Balvan Raman,Male,Operations,Operations Executive,STORE007,2020-01-30,86243,Active
+EMP00410,Advay Apte,Male,Finance,Accountant,STORE008,2020-07-11,94140,Active
+EMP00411,Shivansh Talwar,Female,HR,HR Executive,STORE039,2023-11-01,65846,Active
+EMP00412,Avni Vyas,Male,IT,System Administrator,STORE014,2024-08-27,92269,Active
+EMP00413,Peter Bhardwaj,Female,Operations,Operations Manager,STORE055,2017-08-15,102722,Active
+EMP00414,Manthan Thaker,Male,Inventory,Inventory Executive,STORE058,2023-04-05,52980,Active
+EMP00415,Gaurang Srivastava,Female,HR,HR Manager,STORE065,2017-01-21,93913,Active
+EMP00416,Leena Dhaliwal,Male,Finance,Finance Manager,STORE090,2017-09-14,71658,Active
+EMP00417,Teerth Chander,Female,Inventory,Inventory Manager,STORE054,2026-01-27,89097,Active
+EMP00418,Saanvi Lalla,Male,Sales,Store Manager,STORE100,2025-07-24,46983,Active
+EMP00419,Frederick Natarajan,Female,Operations,Operations Manager,STORE032,2025-03-16,105282,Active
+EMP00420,Charita Dugar,Male,Operations,Operations Executive,STORE037,2020-11-11,69964,On Leave
+EMP00421,Bimala Barman,Male,Inventory,Inventory Manager,STORE034,2023-05-30,29203,Active
+EMP00422,Shaurya Karan,Male,IT,System Administrator,STORE079,2019-03-05,117626,Active
+EMP00423,Jairaj Hayre,Male,Operations,Operations Executive,STORE074,2022-11-04,108229,Active
+EMP00424,Vedika Manda,Male,Inventory,Inventory Manager,STORE029,2023-10-25,37018,Active
+EMP00425,Aadi Chad,Female,HR,HR Manager,STORE020,2019-11-23,70674,Active
+EMP00426,Aarush Bera,Female,Finance,Accountant,STORE020,2025-05-14,59559,Active
+EMP00427,Siddharth Munshi,Male,Sales,Store Manager,STORE088,2022-03-29,74614,On Leave
+EMP00428,Lipika Gour,Male,HR,HR Manager,STORE034,2021-05-09,115261,Active
+EMP00429,Siddharth Sahota,Male,IT,System Administrator,STORE027,2018-12-07,32795,Active
+EMP00430,Turvi Nagarajan,Male,Sales,Store Manager,STORE056,2019-07-25,28664,Active
+EMP00431,Dayamai Chakraborty,Female,IT,System Administrator,STORE051,2023-04-10,61966,Active
+EMP00432,Ridhi Aurora,Female,Inventory,Inventory Executive,STORE055,2022-03-03,46252,Active
+EMP00433,Sathvik Shukla,Female,Inventory,Inventory Manager,STORE054,2017-04-27,56947,On Leave
+EMP00434,Rudra Bhatia,Female,IT,Support Engineer,STORE009,2024-11-14,44354,Terminated
+EMP00435,Ridhi Dhingra,Male,Operations,Operations Executive,STORE040,2022-05-31,31129,Active
+EMP00436,Chaitanya Kaur,Male,Sales,Sales Associate,STORE062,2026-01-06,75028,Active
+EMP00437,Pranav Lall,Male,IT,System Administrator,STORE061,2021-08-22,32815,Active
+EMP00438,Jai Balasubramanian,Male,Sales,Store Manager,STORE019,2020-09-24,88393,Active
+EMP00439,Nandini Mody,Female,IT,Support Engineer,STORE041,2017-02-05,73209,Active
+EMP00440,Ria Sabharwal,Female,HR,HR Executive,STORE014,2024-07-08,119216,Active
+EMP00441,Triveni Tripathi,Male,Operations,Operations Executive,STORE050,2018-12-21,80022,Active
+EMP00442,Gauri Kaur,Female,HR,HR Executive,STORE095,2016-09-18,97933,Active
+EMP00443,Chasmum Parikh,Male,Finance,Finance Manager,STORE100,2023-01-14,30198,Active
+EMP00444,Xavier Mall,Male,HR,HR Executive,STORE074,2018-05-22,72140,Active
+EMP00445,Jagat Mane,Male,Finance,Finance Manager,STORE003,2023-08-08,92689,Active
+EMP00446,Kalpit Tripathi,Male,Sales,Sales Associate,STORE056,2018-06-29,52699,Active
+EMP00447,Ishani Saraf,Female,HR,HR Executive,STORE070,2017-01-27,67374,Active
+EMP00448,Vihaan Mall,Female,Finance,Accountant,STORE060,2017-02-20,87190,Active
+EMP00449,Jagat Khanna,Female,Inventory,Inventory Executive,STORE081,2025-06-17,78341,Active
+EMP00450,David Srinivas,Female,Operations,Operations Executive,STORE066,2020-09-14,88060,Active
+EMP00451,Abhiram Kaul,Female,Sales,Sales Associate,STORE074,2025-02-26,59975,Active
+EMP00452,Chandani Jhaveri,Female,HR,HR Executive,STORE054,2019-06-23,71709,Terminated
+EMP00453,Nitara Kohli,Male,IT,System Administrator,STORE062,2022-06-24,117784,Active
+EMP00454,Baljiwan Varghese,Female,Operations,Operations Executive,STORE071,2024-04-04,68589,Active
+EMP00455,Rishi Bera,Female,Operations,Operations Manager,STORE084,2021-09-24,114284,Active
+EMP00456,Mugdha Kumar,Female,Inventory,Inventory Executive,STORE035,2018-04-29,86645,Active
+EMP00457,Balveer Kari,Female,Sales,Store Manager,STORE034,2021-04-10,62463,Terminated
+EMP00458,Teerth Pai,Male,Sales,Store Manager,STORE003,2019-03-04,43318,Active
+EMP00459,Dayita Sarin,Male,IT,Support Engineer,STORE050,2025-10-24,40792,Active
+EMP00460,Yamini Sachdeva,Female,Inventory,Inventory Executive,STORE007,2018-11-17,65156,Terminated
+EMP00461,Imaran Gupta,Male,Finance,Finance Manager,STORE071,2017-04-15,32858,Active
+EMP00462,Umang Bhardwaj,Male,HR,HR Executive,STORE075,2022-01-11,117330,Active
+EMP00463,Nandini Patel,Female,Inventory,Inventory Executive,STORE079,2020-05-03,80938,Active
+EMP00464,Harrison Chakrabarti,Female,HR,HR Manager,STORE066,2021-01-14,110887,Active
+EMP00465,Eta Golla,Female,HR,HR Executive,STORE082,2018-10-25,67356,Active
+EMP00466,Ranbir Suresh,Female,HR,HR Manager,STORE022,2017-07-31,85627,Active
+EMP00467,Wyatt Bhakta,Female,HR,HR Manager,STORE072,2026-07-04,100918,Active
+EMP00468,Gautami Swaminathan,Male,Finance,Finance Manager,STORE059,2025-02-07,46209,Active
+EMP00469,Isha Kala,Female,Inventory,Inventory Executive,STORE032,2018-04-17,117554,Active
+EMP00470,Anya Shroff,Female,Finance,Accountant,STORE071,2019-08-07,73557,Active
+EMP00471,Neelima Salvi,Female,IT,Support Engineer,STORE097,2023-06-09,100398,Terminated
+EMP00472,Chakradhar Kibe,Female,IT,Support Engineer,STORE070,2024-04-14,95364,Terminated
+EMP00473,Warda Bava,Male,Inventory,Inventory Manager,STORE043,2018-08-31,55454,Active
+EMP00474,Prisha Parmar,Male,Finance,Finance Manager,STORE018,2025-11-15,105008,Active
+EMP00475,Girik Anne,Male,Inventory,Inventory Executive,STORE037,2025-05-30,75776,Active
+EMP00476,Naveen Ahuja,Male,Operations,Operations Manager,STORE004,2022-11-27,90429,Active
+EMP00477,Damyanti Tailor,Female,HR,HR Executive,STORE080,2024-02-02,111426,Active
+EMP00478,Patrick Bhardwaj,Male,HR,HR Executive,STORE095,2022-12-22,91395,Active
+EMP00479,Meera Bahri,Female,Finance,Finance Manager,STORE095,2020-11-15,70827,Terminated
+EMP00480,Max Manda,Female,HR,HR Executive,STORE048,2022-02-12,42059,Active
+EMP00481,Riya Prashad,Male,IT,Support Engineer,STORE014,2017-02-23,105508,Active
+EMP00482,Agastya Bath,Female,Inventory,Inventory Manager,STORE064,2025-01-29,119127,Active
+EMP00483,Yadavi Jaggi,Male,Inventory,Inventory Executive,STORE040,2024-08-12,77736,Active
+EMP00484,Anita Datta,Female,HR,HR Executive,STORE010,2025-02-13,58615,Active
+EMP00485,Indira Agarwal,Male,IT,Support Engineer,STORE006,2023-05-03,118714,Active
+EMP00486,Nathan Ben,Male,Operations,Operations Manager,STORE082,2017-08-06,31978,Active
+EMP00487,Benjamin Varty,Male,IT,Support Engineer,STORE062,2025-09-29,74933,Active
+EMP00488,Faras Nagarajan,Female,Inventory,Inventory Manager,STORE037,2024-05-11,26077,Active
+EMP00489,Manya Chopra,Male,HR,HR Executive,STORE086,2026-05-23,89919,On Leave
+EMP00490,Bakhshi Nanda,Female,HR,HR Manager,STORE005,2019-08-24,89271,Active
+EMP00491,Tanvi Mohan,Male,Finance,Finance Manager,STORE068,2022-06-02,51826,Active
+EMP00492,Frederick Loyal,Male,Operations,Operations Executive,STORE054,2023-12-20,78844,Active
+EMP00493,Kashish Bhandari,Female,Sales,Senior Sales Associate,STORE096,2024-02-25,61181,Active
+EMP00494,Darsh Agrawal,Female,IT,System Administrator,STORE040,2017-04-22,32238,Active
+EMP00495,Ekaja Bhalla,Male,Sales,Store Manager,STORE096,2023-08-01,28196,Active
+EMP00496,Keya Singh,Female,Inventory,Inventory Manager,STORE060,2018-07-10,56177,Active
+EMP00497,Lucky Bahri,Female,IT,Support Engineer,STORE016,2016-11-25,41602,Active
+EMP00498,Gabriel Sarma,Male,Operations,Operations Executive,STORE068,2025-07-06,53696,Active
+EMP00499,Darpan Dani,Male,Sales,Sales Associate,STORE053,2022-09-29,75941,Active
+EMP00500,Yatin Grover,Male,Inventory,Inventory Manager,STORE038,2018-03-23,87740,Active

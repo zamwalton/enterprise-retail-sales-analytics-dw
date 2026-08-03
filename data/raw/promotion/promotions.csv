@@ -1,0 +1,101 @@
+promotion_id,promotion_name,promotion_type,discount_value,start_date,end_date,promotion_status
+PROMO001,Campaign 1,Buy One Get One,0,2025-02-27,2025-04-20,Active
+PROMO002,Campaign 2,Buy One Get One,0,2025-01-17,2025-02-25,Expired
+PROMO003,Campaign 3,Fixed Amount,100,2026-01-09,2026-02-04,Active
+PROMO004,Campaign 4,Percentage,5,2025-08-02,2025-09-28,Scheduled
+PROMO005,Campaign 5,Percentage,25,2025-02-26,2025-04-10,Active
+PROMO006,Campaign 6,Buy One Get One,0,2026-04-01,2026-05-21,Active
+PROMO007,Campaign 7,Fixed Amount,1000,2024-09-11,2024-10-12,Expired
+PROMO008,Campaign 8,Percentage,10,2024-08-11,2024-09-14,Scheduled
+PROMO009,Campaign 9,Percentage,5,2026-01-17,2026-02-05,Expired
+PROMO010,Campaign 10,Percentage,25,2026-06-23,2026-08-21,Active
+PROMO011,Campaign 11,Percentage,15,2025-09-30,2025-11-16,Scheduled
+PROMO012,Campaign 12,Fixed Amount,1000,2025-06-17,2025-07-01,Expired
+PROMO013,Campaign 13,Fixed Amount,500,2025-10-24,2025-11-26,Scheduled
+PROMO014,Campaign 14,Percentage,10,2025-05-19,2025-05-28,Expired
+PROMO015,Campaign 15,Fixed Amount,500,2026-03-05,2026-03-15,Expired
+PROMO016,Campaign 16,Percentage,10,2025-12-14,2026-02-02,Scheduled
+PROMO017,Campaign 17,Buy One Get One,0,2025-07-21,2025-08-22,Expired
+PROMO018,Campaign 18,Percentage,20,2025-07-24,2025-09-11,Active
+PROMO019,Campaign 19,Percentage,30,2025-08-12,2025-09-12,Active
+PROMO020,Campaign 20,Fixed Amount,250,2026-06-01,2026-06-13,Active
+PROMO021,Campaign 21,Fixed Amount,500,2026-01-17,2026-02-06,Scheduled
+PROMO022,Campaign 22,Percentage,5,2025-05-23,2025-07-14,Expired
+PROMO023,Campaign 23,Buy One Get One,0,2026-01-25,2026-03-09,Expired
+PROMO024,Campaign 24,Fixed Amount,100,2025-10-29,2025-11-14,Expired
+PROMO025,Campaign 25,Percentage,40,2025-04-21,2025-05-10,Expired
+PROMO026,Campaign 26,Percentage,20,2024-12-31,2025-01-24,Active
+PROMO027,Campaign 27,Percentage,20,2025-04-19,2025-05-16,Active
+PROMO028,Campaign 28,Buy One Get One,0,2024-12-30,2025-01-14,Expired
+PROMO029,Campaign 29,Buy One Get One,0,2026-01-19,2026-02-28,Active
+PROMO030,Campaign 30,Percentage,10,2026-02-03,2026-02-27,Scheduled
+PROMO031,Campaign 31,Buy One Get One,0,2025-01-15,2025-02-10,Scheduled
+PROMO032,Campaign 32,Buy One Get One,0,2025-07-11,2025-08-17,Expired
+PROMO033,Campaign 33,Buy One Get One,0,2026-06-06,2026-07-10,Scheduled
+PROMO034,Campaign 34,Buy One Get One,0,2026-04-01,2026-05-03,Expired
+PROMO035,Campaign 35,Percentage,25,2026-05-17,2026-06-22,Expired
+PROMO036,Campaign 36,Fixed Amount,250,2026-02-21,2026-03-31,Expired
+PROMO037,Campaign 37,Percentage,15,2025-12-03,2026-01-27,Scheduled
+PROMO038,Campaign 38,Buy One Get One,0,2024-12-30,2025-01-20,Expired
+PROMO039,Campaign 39,Buy One Get One,0,2026-02-11,2026-03-21,Scheduled
+PROMO040,Campaign 40,Percentage,10,2025-12-10,2026-01-01,Scheduled
+PROMO041,Campaign 41,Buy One Get One,0,2026-01-30,2026-03-24,Active
+PROMO042,Campaign 42,Percentage,5,2025-11-30,2025-12-25,Active
+PROMO043,Campaign 43,Buy One Get One,0,2025-10-08,2025-10-17,Active
+PROMO044,Campaign 44,Buy One Get One,0,2025-12-15,2026-01-12,Expired
+PROMO045,Campaign 45,Percentage,25,2024-08-12,2024-08-30,Expired
+PROMO046,Campaign 46,Percentage,25,2024-08-29,2024-10-08,Scheduled
+PROMO047,Campaign 47,Buy One Get One,0,2026-07-14,2026-09-05,Scheduled
+PROMO048,Campaign 48,Buy One Get One,0,2024-09-07,2024-10-12,Scheduled
+PROMO049,Campaign 49,Percentage,5,2024-11-15,2024-12-15,Expired
+PROMO050,Campaign 50,Buy One Get One,0,2025-11-28,2025-12-13,Scheduled
+PROMO051,Campaign 51,Fixed Amount,1000,2025-10-20,2025-11-10,Expired
+PROMO052,Campaign 52,Buy One Get One,0,2025-04-02,2025-05-12,Active
+PROMO053,Campaign 53,Fixed Amount,1000,2024-11-04,2024-11-22,Scheduled
+PROMO054,Campaign 54,Buy One Get One,0,2026-07-11,2026-07-25,Active
+PROMO055,Campaign 55,Buy One Get One,0,2024-12-17,2025-02-11,Expired
+PROMO056,Campaign 56,Fixed Amount,250,2025-02-17,2025-03-24,Scheduled
+PROMO057,Campaign 57,Buy One Get One,0,2025-04-22,2025-06-04,Expired
+PROMO058,Campaign 58,Buy One Get One,0,2025-11-15,2026-01-14,Expired
+PROMO059,Campaign 59,Percentage,15,2025-05-13,2025-06-03,Scheduled
+PROMO060,Campaign 60,Buy One Get One,0,2026-02-21,2026-03-23,Expired
+PROMO061,Campaign 61,Fixed Amount,100,2026-03-18,2026-04-09,Active
+PROMO062,Campaign 62,Fixed Amount,100,2026-02-09,2026-03-12,Scheduled
+PROMO063,Campaign 63,Percentage,30,2025-08-16,2025-09-11,Expired
+PROMO064,Campaign 64,Buy One Get One,0,2025-01-11,2025-03-01,Expired
+PROMO065,Campaign 65,Fixed Amount,100,2024-09-26,2024-10-07,Expired
+PROMO066,Campaign 66,Fixed Amount,250,2024-10-06,2024-10-21,Active
+PROMO067,Campaign 67,Percentage,10,2026-06-23,2026-08-10,Expired
+PROMO068,Campaign 68,Buy One Get One,0,2025-01-05,2025-02-13,Active
+PROMO069,Campaign 69,Percentage,25,2024-09-07,2024-10-20,Scheduled
+PROMO070,Campaign 70,Fixed Amount,500,2025-09-11,2025-10-20,Active
+PROMO071,Campaign 71,Percentage,30,2026-07-02,2026-08-17,Active
+PROMO072,Campaign 72,Fixed Amount,100,2024-12-21,2025-02-08,Scheduled
+PROMO073,Campaign 73,Percentage,10,2026-04-05,2026-04-17,Scheduled
+PROMO074,Campaign 74,Buy One Get One,0,2025-12-26,2026-01-07,Expired
+PROMO075,Campaign 75,Percentage,20,2024-12-09,2024-12-30,Active
+PROMO076,Campaign 76,Percentage,50,2025-06-29,2025-08-07,Active
+PROMO077,Campaign 77,Fixed Amount,1000,2025-11-13,2025-12-12,Active
+PROMO078,Campaign 78,Buy One Get One,0,2025-10-19,2025-11-14,Expired
+PROMO079,Campaign 79,Percentage,50,2025-11-25,2026-01-01,Expired
+PROMO080,Campaign 80,Percentage,10,2025-07-16,2025-07-27,Active
+PROMO081,Campaign 81,Fixed Amount,100,2026-04-16,2026-05-23,Active
+PROMO082,Campaign 82,Fixed Amount,500,2026-06-01,2026-06-21,Scheduled
+PROMO083,Campaign 83,Fixed Amount,500,2025-02-05,2025-02-20,Scheduled
+PROMO084,Campaign 84,Percentage,10,2024-10-19,2024-10-27,Expired
+PROMO085,Campaign 85,Percentage,50,2025-01-02,2025-01-26,Active
+PROMO086,Campaign 86,Fixed Amount,100,2024-09-02,2024-09-19,Active
+PROMO087,Campaign 87,Percentage,5,2025-03-27,2025-05-14,Scheduled
+PROMO088,Campaign 88,Buy One Get One,0,2026-05-20,2026-06-12,Expired
+PROMO089,Campaign 89,Fixed Amount,500,2025-03-30,2025-05-05,Expired
+PROMO090,Campaign 90,Percentage,20,2024-10-27,2024-12-17,Expired
+PROMO091,Campaign 91,Buy One Get One,0,2025-07-16,2025-08-27,Expired
+PROMO092,Campaign 92,Fixed Amount,500,2025-09-14,2025-09-25,Active
+PROMO093,Campaign 93,Fixed Amount,250,2026-04-16,2026-05-22,Scheduled
+PROMO094,Campaign 94,Buy One Get One,0,2026-03-04,2026-04-23,Active
+PROMO095,Campaign 95,Fixed Amount,1000,2026-02-03,2026-03-24,Active
+PROMO096,Campaign 96,Percentage,15,2025-06-12,2025-07-07,Expired
+PROMO097,Campaign 97,Buy One Get One,0,2025-03-28,2025-05-16,Active
+PROMO098,Campaign 98,Percentage,40,2024-07-24,2024-08-18,Active
+PROMO099,Campaign 99,Buy One Get One,0,2024-07-25,2024-08-24,Scheduled
+PROMO100,Campaign 100,Fixed Amount,1000,2025-05-04,2025-05-17,Active

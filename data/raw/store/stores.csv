@@ -1,0 +1,101 @@
+store_id,store_name,store_type,city,state,country,opening_date,store_status
+STORE001,Thiruvananthapuram Store 1,Express,Thiruvananthapuram,Kerala,India,2015-01-01,Active
+STORE002,Pune Store 2,Hypermarket,Pune,Maharashtra,India,2016-01-01,Active
+STORE003,Pune Store 3,Express,Pune,Maharashtra,India,2024-01-01,Active
+STORE004,Coimbatore Store 4,Supermarket,Coimbatore,Tamil Nadu,India,2017-01-01,Active
+STORE005,Hyderabad Store 5,Express,Hyderabad,Telangana,India,2015-01-01,Active
+STORE006,Pune Store 6,Hypermarket,Pune,Maharashtra,India,2024-01-01,Active
+STORE007,Hyderabad Store 7,Express,Hyderabad,Telangana,India,2019-01-01,Active
+STORE008,Thiruvananthapuram Store 8,Express,Thiruvananthapuram,Kerala,India,2023-01-01,Active
+STORE009,Hyderabad Store 9,Hypermarket,Hyderabad,Telangana,India,2020-01-01,Active
+STORE010,Visakhapatnam Store 10,Hypermarket,Visakhapatnam,Andhra Pradesh,India,2018-01-01,Active
+STORE011,Chennai Store 11,Supermarket,Chennai,Tamil Nadu,India,2024-01-01,Active
+STORE012,Mumbai Store 12,Supermarket,Mumbai,Maharashtra,India,2019-01-01,Active
+STORE013,Mysuru Store 13,Express,Mysuru,Karnataka,India,2023-01-01,Active
+STORE014,Coimbatore Store 14,Express,Coimbatore,Tamil Nadu,India,2017-01-01,Active
+STORE015,Hyderabad Store 15,Express,Hyderabad,Telangana,India,2020-01-01,Active
+STORE016,Kochi Store 16,Supermarket,Kochi,Kerala,India,2012-01-01,Active
+STORE017,Coimbatore Store 17,Supermarket,Coimbatore,Tamil Nadu,India,2015-01-01,Active
+STORE018,Visakhapatnam Store 18,Hypermarket,Visakhapatnam,Andhra Pradesh,India,2022-01-01,Active
+STORE019,Bengaluru Store 19,Supermarket,Bengaluru,Karnataka,India,2016-01-01,Active
+STORE020,Hyderabad Store 20,Hypermarket,Hyderabad,Telangana,India,2010-01-01,Active
+STORE021,Pune Store 21,Supermarket,Pune,Maharashtra,India,2012-01-01,Active
+STORE022,Kochi Store 22,Hypermarket,Kochi,Kerala,India,2023-01-01,Active
+STORE023,Visakhapatnam Store 23,Express,Visakhapatnam,Andhra Pradesh,India,2015-01-01,Active
+STORE024,Mumbai Store 24,Express,Mumbai,Maharashtra,India,2023-01-01,Active
+STORE025,Pune Store 25,Supermarket,Pune,Maharashtra,India,2014-01-01,Active
+STORE026,Kochi Store 26,Hypermarket,Kochi,Kerala,India,2021-01-01,Active
+STORE027,Thiruvananthapuram Store 27,Express,Thiruvananthapuram,Kerala,India,2023-01-01,Active
+STORE028,Kochi Store 28,Supermarket,Kochi,Kerala,India,2010-01-01,Active
+STORE029,Mumbai Store 29,Express,Mumbai,Maharashtra,India,2011-01-01,Active
+STORE030,Hyderabad Store 30,Hypermarket,Hyderabad,Telangana,India,2014-01-01,Active
+STORE031,Coimbatore Store 31,Supermarket,Coimbatore,Tamil Nadu,India,2011-01-01,Active
+STORE032,Thiruvananthapuram Store 32,Supermarket,Thiruvananthapuram,Kerala,India,2011-01-01,Active
+STORE033,Pune Store 33,Hypermarket,Pune,Maharashtra,India,2013-01-01,Active
+STORE034,Bengaluru Store 34,Hypermarket,Bengaluru,Karnataka,India,2021-01-01,Active
+STORE035,Pune Store 35,Express,Pune,Maharashtra,India,2014-01-01,Active
+STORE036,Mumbai Store 36,Supermarket,Mumbai,Maharashtra,India,2013-01-01,Active
+STORE037,Hyderabad Store 37,Hypermarket,Hyderabad,Telangana,India,2014-01-01,Active
+STORE038,Pune Store 38,Supermarket,Pune,Maharashtra,India,2018-01-01,Active
+STORE039,Thiruvananthapuram Store 39,Express,Thiruvananthapuram,Kerala,India,2019-01-01,Active
+STORE040,Chennai Store 40,Hypermarket,Chennai,Tamil Nadu,India,2023-01-01,Active
+STORE041,Kochi Store 41,Hypermarket,Kochi,Kerala,India,2016-01-01,Active
+STORE042,Thiruvananthapuram Store 42,Express,Thiruvananthapuram,Kerala,India,2020-01-01,Active
+STORE043,Coimbatore Store 43,Supermarket,Coimbatore,Tamil Nadu,India,2021-01-01,Active
+STORE044,Coimbatore Store 44,Express,Coimbatore,Tamil Nadu,India,2021-01-01,Active
+STORE045,Thiruvananthapuram Store 45,Express,Thiruvananthapuram,Kerala,India,2020-01-01,Active
+STORE046,Chennai Store 46,Express,Chennai,Tamil Nadu,India,2012-01-01,Active
+STORE047,Bengaluru Store 47,Supermarket,Bengaluru,Karnataka,India,2015-01-01,Active
+STORE048,Hyderabad Store 48,Hypermarket,Hyderabad,Telangana,India,2012-01-01,Active
+STORE049,Mumbai Store 49,Supermarket,Mumbai,Maharashtra,India,2019-01-01,Active
+STORE050,Visakhapatnam Store 50,Supermarket,Visakhapatnam,Andhra Pradesh,India,2023-01-01,Active
+STORE051,Chennai Store 51,Express,Chennai,Tamil Nadu,India,2011-01-01,Active
+STORE052,Mysuru Store 52,Supermarket,Mysuru,Karnataka,India,2017-01-01,Active
+STORE053,Bengaluru Store 53,Supermarket,Bengaluru,Karnataka,India,2011-01-01,Active
+STORE054,Bengaluru Store 54,Hypermarket,Bengaluru,Karnataka,India,2012-01-01,Active
+STORE055,Mysuru Store 55,Hypermarket,Mysuru,Karnataka,India,2013-01-01,Active
+STORE056,Hyderabad Store 56,Hypermarket,Hyderabad,Telangana,India,2015-01-01,Active
+STORE057,Mumbai Store 57,Express,Mumbai,Maharashtra,India,2023-01-01,Active
+STORE058,Mysuru Store 58,Express,Mysuru,Karnataka,India,2020-01-01,Active
+STORE059,Kochi Store 59,Express,Kochi,Kerala,India,2013-01-01,Active
+STORE060,Coimbatore Store 60,Hypermarket,Coimbatore,Tamil Nadu,India,2018-01-01,Active
+STORE061,Mysuru Store 61,Hypermarket,Mysuru,Karnataka,India,2022-01-01,Active
+STORE062,Chennai Store 62,Supermarket,Chennai,Tamil Nadu,India,2010-01-01,Active
+STORE063,Mysuru Store 63,Supermarket,Mysuru,Karnataka,India,2021-01-01,Active
+STORE064,Coimbatore Store 64,Supermarket,Coimbatore,Tamil Nadu,India,2017-01-01,Active
+STORE065,Coimbatore Store 65,Hypermarket,Coimbatore,Tamil Nadu,India,2013-01-01,Active
+STORE066,Mysuru Store 66,Supermarket,Mysuru,Karnataka,India,2014-01-01,Active
+STORE067,Mumbai Store 67,Express,Mumbai,Maharashtra,India,2022-01-01,Active
+STORE068,Mysuru Store 68,Supermarket,Mysuru,Karnataka,India,2020-01-01,Active
+STORE069,Hyderabad Store 69,Supermarket,Hyderabad,Telangana,India,2013-01-01,Active
+STORE070,Hyderabad Store 70,Supermarket,Hyderabad,Telangana,India,2015-01-01,Active
+STORE071,Chennai Store 71,Supermarket,Chennai,Tamil Nadu,India,2014-01-01,Active
+STORE072,Mysuru Store 72,Express,Mysuru,Karnataka,India,2019-01-01,Active
+STORE073,Pune Store 73,Express,Pune,Maharashtra,India,2016-01-01,Active
+STORE074,Pune Store 74,Express,Pune,Maharashtra,India,2010-01-01,Active
+STORE075,Pune Store 75,Express,Pune,Maharashtra,India,2010-01-01,Active
+STORE076,Pune Store 76,Hypermarket,Pune,Maharashtra,India,2014-01-01,Active
+STORE077,Thiruvananthapuram Store 77,Express,Thiruvananthapuram,Kerala,India,2021-01-01,Active
+STORE078,Coimbatore Store 78,Express,Coimbatore,Tamil Nadu,India,2016-01-01,Active
+STORE079,Pune Store 79,Hypermarket,Pune,Maharashtra,India,2023-01-01,Active
+STORE080,Mysuru Store 80,Hypermarket,Mysuru,Karnataka,India,2022-01-01,Active
+STORE081,Kochi Store 81,Express,Kochi,Kerala,India,2018-01-01,Active
+STORE082,Coimbatore Store 82,Hypermarket,Coimbatore,Tamil Nadu,India,2016-01-01,Active
+STORE083,Pune Store 83,Hypermarket,Pune,Maharashtra,India,2011-01-01,Active
+STORE084,Mysuru Store 84,Supermarket,Mysuru,Karnataka,India,2017-01-01,Active
+STORE085,Bengaluru Store 85,Express,Bengaluru,Karnataka,India,2011-01-01,Active
+STORE086,Visakhapatnam Store 86,Hypermarket,Visakhapatnam,Andhra Pradesh,India,2010-01-01,Active
+STORE087,Pune Store 87,Supermarket,Pune,Maharashtra,India,2012-01-01,Active
+STORE088,Coimbatore Store 88,Supermarket,Coimbatore,Tamil Nadu,India,2014-01-01,Active
+STORE089,Coimbatore Store 89,Supermarket,Coimbatore,Tamil Nadu,India,2013-01-01,Active
+STORE090,Coimbatore Store 90,Hypermarket,Coimbatore,Tamil Nadu,India,2017-01-01,Active
+STORE091,Coimbatore Store 91,Express,Coimbatore,Tamil Nadu,India,2010-01-01,Active
+STORE092,Bengaluru Store 92,Express,Bengaluru,Karnataka,India,2014-01-01,Active
+STORE093,Coimbatore Store 93,Supermarket,Coimbatore,Tamil Nadu,India,2019-01-01,Active
+STORE094,Hyderabad Store 94,Hypermarket,Hyderabad,Telangana,India,2010-01-01,Active
+STORE095,Kochi Store 95,Supermarket,Kochi,Kerala,India,2010-01-01,Active
+STORE096,Hyderabad Store 96,Supermarket,Hyderabad,Telangana,India,2013-01-01,Active
+STORE097,Coimbatore Store 97,Express,Coimbatore,Tamil Nadu,India,2011-01-01,Active
+STORE098,Mumbai Store 98,Supermarket,Mumbai,Maharashtra,India,2016-01-01,Active
+STORE099,Bengaluru Store 99,Hypermarket,Bengaluru,Karnataka,India,2016-01-01,Active
+STORE100,Mumbai Store 100,Hypermarket,Mumbai,Maharashtra,India,2010-01-01,Active

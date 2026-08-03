@@ -49,7 +49,9 @@ CREATE TABLE IF NOT EXISTS retail_dw.dim_store (
     CONSTRAINT chk_store_type
         CHECK (
             store_type IN
-            ('Retail', 'Outlet', 'Warehouse')
+            ('Hypermarket',
+        'Supermarket',
+        'Express')
         ),
 
     CONSTRAINT chk_store_status
@@ -85,7 +87,7 @@ COMMENT ON COLUMN retail_dw.dim_store.store_name IS
 'Store name';
 
 COMMENT ON COLUMN retail_dw.dim_store.store_type IS
-'Type of store: Retail, Outlet, or Warehouse';
+'Type of store: Hypermarket, Supermarket, or Express';
 
 COMMENT ON COLUMN retail_dw.dim_store.city IS
 'Store city';
