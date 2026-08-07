@@ -21,6 +21,7 @@ from etl.validation.business_rules import (
     validate_sales_amounts,
 )
 
+from etl.validation.report import DataQualityReport
 
 def validate_fact_sales(
     fact_df: pd.DataFrame,
@@ -47,6 +48,8 @@ def validate_fact_sales(
         "========== FACT SALES VALIDATION STARTED =========="
     )
 
+    report=DataQualityReport()
+
     # ======================================================
     # 1. COMPLETENESS
     # ======================================================
@@ -69,6 +72,11 @@ def validate_fact_sales(
         ],
     )
 
+    report.add_check(
+        dataset="Fact Sales",
+        check="Completeness",
+    )
+
     # ======================================================
     # 2. UNIQUENESS
     # ======================================================
@@ -79,6 +87,11 @@ def validate_fact_sales(
             "transaction_id",
             "line_number",
         ],
+    )
+
+    report.add_check(
+        dataset="Fact Sales",
+        check="Uniqueness",
     )
 
     # ======================================================
@@ -127,6 +140,11 @@ def validate_fact_sales(
         "date_key",
     )
 
+    report.add_check(
+        dataset="Fact Sales",
+        check="Referential Integrity",
+    )
+
     # ======================================================
     # 4. POSITIVE VALUES
     # ======================================================
@@ -138,6 +156,11 @@ def validate_fact_sales(
             "unit_price",
         ],
     )
+
+    report.add_check(
+    dataset="Fact Sales",
+    check="Positive Values",
+    ) 
 
     # ======================================================
     # 5. NON-NEGATIVE VALUES
@@ -152,6 +175,10 @@ def validate_fact_sales(
         ],
     )
 
+    report.add_check(
+        dataset="Fact Sales",
+        check="Non-negative Values",
+    )
     # ======================================================
     # 6. SALES AMOUNT BUSINESS RULE
     # ======================================================
@@ -160,9 +187,16 @@ def validate_fact_sales(
         fact_df,
     )
 
+    report.add_check(
+        dataset="Fact Sales",
+        check="Sales Amount Rules",
+     )
+
     # ======================================================
-    # VALIDATION COMPLETE
+    # 7. VALIDATION COMPLETE
     # ======================================================
+
+    report.print_report()
 
     logger.info(
         "========== FACT SALES VALIDATION PASSED =========="

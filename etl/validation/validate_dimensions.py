@@ -9,13 +9,14 @@ Purpose : Central Dimension Data Quality Validation
 import pandas as pd
 
 from etl.utils import logger
-
 from etl.validation.completeness import validate_not_null
 from etl.validation.uniqueness import validate_unique
 from etl.validation.business_rules import (
     validate_date_order,
     validate_promotion_rules,
 )
+from etl.validation.report import DataQualityReport
+
 
 
 def validate_customer_dimension(
@@ -45,6 +46,9 @@ def validate_customer_dimension(
         "Customer Dimension validation passed."
     )
 
+  
+    
+
 
 def validate_employee_dimension(
     df: pd.DataFrame,
@@ -71,6 +75,8 @@ def validate_employee_dimension(
     logger.info(
         "Employee Dimension validation passed."
     )
+
+
 
 
 def validate_store_dimension(
@@ -103,6 +109,8 @@ def validate_store_dimension(
     )
 
 
+
+
 def validate_supplier_dimension(
     df: pd.DataFrame,
 ) -> None:
@@ -130,6 +138,8 @@ def validate_supplier_dimension(
     )
 
 
+
+
 def validate_product_dimension(
     df: pd.DataFrame,
 ) -> None:
@@ -154,6 +164,8 @@ def validate_product_dimension(
     )
 
     logger.info("Product Dimension validation passed.")
+
+
 
 
 def validate_promotion_dimension(
@@ -190,6 +202,7 @@ def validate_promotion_dimension(
     logger.info(
         "Promotion Dimension validation passed."
     )
+
 
 
 def validate_date_dimension(
@@ -238,33 +251,79 @@ def validate_all_dimensions(
         "========== DIMENSION VALIDATION STARTED =========="
     )
 
+    report = DataQualityReport()
+
     validate_customer_dimension(
         dimensions["customer"]
     )
+
+    report.add_check("Customer","Completeness",)
+    
+    report.add_check("Customer","Uniqueness",)
 
     validate_employee_dimension(
         dimensions["employee"]
     )
 
+    report.add_check("Employee","Completeness",)
+
+    report.add_check("Employee","Uniqueness",)
+
+
+
     validate_store_dimension(
         dimensions["store"]
     )
+
+    report.add_check("Store","Completeness",)
+
+    report.add_check("Store","Uniqueness",)
 
     validate_supplier_dimension(
         dimensions["supplier"]
     )
 
+    report.add_check("Supplier","Completeness",)
+
+    report.add_check("Supplier","Uniqueness",)
+
     validate_product_dimension(
         dimensions["product"]
     )
+
+    report.add_check("Product","Completeness",)
+
+    report.add_check("Product","Uniqueness",)
+
 
     validate_promotion_dimension(
         dimensions["promotion"]
     )
 
+
+    report.add_check("Promotion","Completeness",)
+
+    report.add_check("Promotion","Uniqueness",)
+
+    report.add_check("Promotion","Business Rules",)
+
+    report.add_check("Promotion","Date Validation",)
+
+
+
     validate_date_dimension(
         dimensions["date"]
     )
+
+
+    report.add_check("Date","Completeness",)
+
+    report.add_check("Date","Uniqueness",)
+
+
+
+
+    report.print_report()
 
     logger.info(
         "========== DIMENSION VALIDATION PASSED =========="

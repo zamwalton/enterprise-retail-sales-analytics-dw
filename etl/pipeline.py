@@ -36,269 +36,333 @@ from etl.load.postgres_loader import load_dataframe
 
 from etl.utils.utils import logger
 
-
+from etl.audit.metadata import (
+    start_pipeline_run,
+    end_pipeline_run,
+)
 
 def run_pipeline():
-    start_time = time.perf_counter()
+    pipeline_start = time.perf_counter()
+
+    
+
+    # ============================================================
+    # 1. REGISTER ETL PIPELINE EXECUTION
+    # ============================================================
+
+
+   
+
+    pipeline_run_id, start_time = start_pipeline_run(
+    pipeline_name="Enterprise Retail Sales Analytics DW",
+    load_type="FULL",
+    )
 
     logger.info("========== ETL PIPELINE STARTED ==========")
 
-    # ======================================================
-    # 1. EXTRACT
-    # ======================================================
-
-    logger.info("Extracting source datasets...")
-
-    data = extract_data()
 
-    logger.info("Extraction completed.")
+    try:
+        # ======================================================
+        # 1. EXTRACT
+        # ======================================================
+
+        logger.info("Extracting source datasets...")
 
-    # ======================================================
-    # 2. TRANSFORM DIMENSIONS
-    # ======================================================
+        data = extract_data()
 
-    logger.info("========== DIMENSION TRANSFORMATION STARTED ==========")
+        logger.info("Extraction completed.")
 
-    #.Transforming Customer Dimension...
-    dim_customer = transform_customer(
-        data["customers"]
-    )
+        # ======================================================
+        # 2. TRANSFORM DIMENSIONS
+        # ======================================================
 
-    #.Transforming Employee Dimension...
-    dim_employee = transform_employee(
-        data["employees"]
-    )
+        logger.info("========== DIMENSION TRANSFORMATION STARTED ==========")
 
-    #.Transforming Store Dimension...
-    dim_store = transform_store(
-        data["stores"]
-    )
+        #.Transforming Customer Dimension...
+        dim_customer = transform_customer(
+            data["customers"]
+        )
 
-    #.Transforming Supplier Dimension...
-    dim_supplier = transform_supplier(
-        data["suppliers"]
-    )
+        #.Transforming Employee Dimension...
+        dim_employee = transform_employee(
+            data["employees"]
+        )
 
-    #.Transforming Product Dimension...
-    dim_product = transform_product(
-        data["products"]
-    )
+        #.Transforming Store Dimension...
+        dim_store = transform_store(
+            data["stores"]
+        )
 
-    #.Transforming Promotion Dimension...
-    dim_promotion = transform_promotion(
-        data["promotions"]
-    )
+        #.Transforming Supplier Dimension...
+        dim_supplier = transform_supplier(
+            data["suppliers"]
+        )
 
-    #.Generating Date Dimension...
-    dim_date = transform_date()
+        #.Transforming Product Dimension...
+        dim_product = transform_product(
+            data["products"]
+        )
 
-    logger.info("========== DIMENSION TRANSFORMATION COMPLETED ==========")
+        #.Transforming Promotion Dimension...
+        dim_promotion = transform_promotion(
+            data["promotions"]
+        )
 
-    # ======================================================
-    # 2.1 VALIDATE DIMENSIONS
-    # ======================================================
+        #.Generating Date Dimension...
+        dim_date = transform_date()
 
-    dimensions = {
-        "customer": dim_customer,
-        "employee": dim_employee,
-        "store": dim_store,
-        "supplier": dim_supplier,
-        "product": dim_product,
-        "promotion": dim_promotion,
-        "date": dim_date,
-    }
+        logger.info("========== DIMENSION TRANSFORMATION COMPLETED ==========")
 
-    validate_all_dimensions(dimensions)
+        # ======================================================
+        # 2.1 VALIDATE DIMENSIONS
+        # ======================================================
 
-    # ======================================================
-    # 3. MERGE SALES HEADER + DETAIL
-    # ======================================================
+        dimensions = {
+            "customer": dim_customer,
+            "employee": dim_employee,
+            "store": dim_store,
+            "supplier": dim_supplier,
+            "product": dim_product,
+            "promotion": dim_promotion,
+            "date": dim_date,
+        }
 
-    
-    #.Merging Sales Header and Sales Detail...
-    
+        validate_all_dimensions(dimensions)
 
-    fact = merge_header_detail(
-        data["sales_header"],
-        data["sales_detail"]
-    )
+        # ======================================================
+        # 3. MERGE SALES HEADER + DETAIL
+        # ======================================================
 
-    
+        
+        #.Merging Sales Header and Sales Detail...
+        
 
-    # ======================================================
-    # 4. LOOKUP SURROGATE KEYS
-    # ======================================================
+        fact = merge_header_detail(
+            data["sales_header"],
+            data["sales_detail"]
+        )
 
-    #.Looking up surrogate keys...
+        
 
-    fact = lookup_dimension_keys(
-        fact,
-        dim_customer,
-        dim_employee,
-        dim_store,
-        dim_product,
-        dim_promotion,
-        dim_date
-    )
+        # ======================================================
+        # 4. LOOKUP SURROGATE KEYS
+        # ======================================================
 
-    #.Surrogate key lookup completed.
+        #.Looking up surrogate keys...
 
-    # ======================================================
-    # 5. BUILD FACT SALES
-    # ======================================================
+        fact = lookup_dimension_keys(
+            fact,
+            dim_customer,
+            dim_employee,
+            dim_store,
+            dim_product,
+            dim_promotion,
+            dim_date
+        )
 
-    #.Building Fact Sales...
+        #.Surrogate key lookup completed.
 
-    fact_sales = build_fact_sales(fact)
+        # ======================================================
+        # 5. BUILD FACT SALES
+        # ======================================================
 
-    #.Fact Sales built.
+        #.Building Fact Sales...
 
+        fact_sales = build_fact_sales(fact)
 
-    # ======================================================
-    # 6. FACT SALES DATA QUALITY VALIDATION
-    # ======================================================
+        #.Fact Sales built.
 
-    logger.info(
-        "Validating Fact Sales..."
-    )
 
-    validate_fact_sales(
-        fact_sales,
-        dim_customer,
-        dim_employee,
-        dim_store,
-        dim_product,
-        dim_promotion,
-        dim_date,
-    )
+        # ======================================================
+        # 6. FACT SALES DATA QUALITY VALIDATION
+        # ======================================================
 
-    logger.info(
-        "Fact Sales validation completed successfully."
-    )
-    
+        logger.info(
+            "Validating Fact Sales..."
+        )
 
+        validate_fact_sales(
+            fact_sales,
+            dim_customer,
+            dim_employee,
+            dim_store,
+            dim_product,
+            dim_promotion,
+            dim_date,
+        )
 
-    # ======================================================
-    # 7. CLEAR EXISTING WAREHOUSE DATA
-    # ======================================================
+        logger.info(
+            "Fact Sales validation completed successfully."
+        )
+        
 
-    logger.info(
-        "Preparing warehouse for full-refresh load..."
-    )
 
-    clear_warehouse()
+        # ======================================================
+        # 7. CLEAR EXISTING WAREHOUSE DATA
+        # ======================================================
 
-    # ======================================================
-    # 8. LOAD DIMENSIONS
-    # ======================================================
+        logger.info(
+            "Preparing warehouse for full-refresh load..."
+        )
 
+        clear_warehouse()
 
+        # ======================================================
+        # 8. LOAD DIMENSIONS
+        # ======================================================
 
-    logger.info("========== WAREHOUSE LOAD STARTED ==========")
 
-    load_dataframe(
-        dim_customer,
-        "dim_customer"
-    )
 
-    load_dataframe(
-        dim_employee,
-        "dim_employee"
-    )
+        logger.info("========== WAREHOUSE LOAD STARTED ==========")
 
-    load_dataframe(
-        dim_store,
-        "dim_store"
-    )
+        load_dataframe(
+            dim_customer,
+            "dim_customer"
+        )
 
-    load_dataframe(
-        dim_supplier,
-        "dim_supplier"
-    )
+        load_dataframe(
+            dim_employee,
+            "dim_employee"
+        )
 
-    load_dataframe(
-        dim_product,
-        "dim_product"
-    )
+        load_dataframe(
+            dim_store,
+            "dim_store"
+        )
 
-    load_dataframe(
-        dim_promotion,
-        "dim_promotion"
-    )
+        load_dataframe(
+            dim_supplier,
+            "dim_supplier"
+        )
 
-    load_dataframe(
-        dim_date,
-        "dim_date"
-    )
+        load_dataframe(
+            dim_product,
+            "dim_product"
+        )
 
-    # ======================================================
-    # 9. LOAD FACT
-    # ======================================================
+        load_dataframe(
+            dim_promotion,
+            "dim_promotion"
+        )
 
+        load_dataframe(
+            dim_date,
+            "dim_date"
+        )
 
-    load_dataframe(
-        fact_sales,
-        "fact_sales"
-    )
+        # ======================================================
+        # 9. LOAD FACT
+        # ======================================================
 
-    logger.info("========== WAREHOUSE LOAD COMPLETED ==========")
 
+        load_dataframe(
+            fact_sales,
+            "fact_sales"
+        )
 
+        logger.info("========== WAREHOUSE LOAD COMPLETED ==========")
 
-    # ======================================================
-    # 10. PIPELINE SUMMARY
-    # ======================================================
 
 
+        # ======================================================
+        # 10. PIPELINE SUMMARY
+        # ======================================================
 
-    end_time = time.perf_counter()
-    logger.info("========== ETL PIPELINE COMPLETED ==========")
 
-    print("\n==========================================")
-    print("        ETL LOAD SUMMARY")
-    print("==========================================")
+        ## 10.1 PIPELINE DURATION
+        pipeline_end = time.perf_counter()
+        pipeline_duration = round(
+        pipeline_end - pipeline_start,
+        2,
+        )
 
-    print(
-        f"dim_customer      : {len(dim_customer):,}"
-    )
+        # ==========================================================
+        # UPDATE PIPELINE METADATA
+        # ==========================================================
 
-    print(
-        f"dim_employee      : {len(dim_employee):,}"
-    )
+        end_pipeline_run(
+            pipeline_run_id=pipeline_run_id,
+            start_time=start_time,
+            rows_processed=len(fact_sales),
+            status="SUCCESS",
+        )
 
-    print(
-        f"dim_store         : {len(dim_store):,}"
-    )
 
-    print(
-        f"dim_supplier      : {len(dim_supplier):,}"
-    )
+        logger.info("========== ETL PIPELINE COMPLETED ==========")
 
-    print(
-        f"dim_product       : {len(dim_product):,}"
-    )
+        print("\n==========================================")
+        print("        ETL LOAD SUMMARY")
+        print("==========================================")
 
-    print(
-        f"dim_promotion     : {len(dim_promotion):,}"
-    )
+        print(
+            f"dim_customer      : {len(dim_customer):,}"
+        )
 
-    print(
-        f"dim_date          : {len(dim_date):,}"
-    )
+        print(
+            f"dim_employee      : {len(dim_employee):,}"
+        )
 
-    print(
-        f"fact_sales        : {len(fact_sales):,}"
-    )
+        print(
+            f"dim_store         : {len(dim_store):,}"
+        )
 
+        print(
+            f"dim_supplier      : {len(dim_supplier):,}"
+        )
 
-    print(
-        f"Pipeline Duration : {end_time - start_time:.2f} seconds"
-    )
+        print(
+            f"dim_product       : {len(dim_product):,}"
+        )
 
-    print("==========================================")
-    print("        ETL PIPELINE SUCCESS")
-    print("==========================================")
+        print(
+            f"dim_promotion     : {len(dim_promotion):,}"
+        )
+
+        print(
+            f"dim_date          : {len(dim_date):,}"
+        )
+
+        print(
+            f"fact_sales        : {len(fact_sales):,}"
+        )
+
+
+        print(
+            f"Pipeline Duration : {pipeline_duration:.2f} seconds"
+        )
+
+        print("==========================================")
+        print("        ETL PIPELINE SUCCESS")
+        print("==========================================")
+
+    # ============================================================
+    # PIPELINE FAILURE HANDLING
+    # ============================================================
+    except Exception as error:
+
+        pipeline_end = time.perf_counter()
+
+        pipeline_duration = round(
+            pipeline_end - pipeline_start,
+            2,
+        )
+
+        end_pipeline_run(
+            pipeline_run_id=pipeline_run_id,
+            start_time=start_time,
+            rows_processed=0,
+            status="FAILED",
+            error_message=str(error),
+        )
+
+        logger.exception(
+            "ETL Pipeline Failed after %.2f seconds.",
+            pipeline_duration,
+        )
+
+        raise
 
 
 if __name__ == "__main__":
     run_pipeline()
+    
