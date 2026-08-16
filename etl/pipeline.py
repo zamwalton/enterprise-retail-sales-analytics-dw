@@ -80,7 +80,8 @@ def run_pipeline():
 
         #.Transforming Customer Dimension...
         dim_customer = transform_customer(
-            data["customers"]
+            data["customers"],
+            effective_start_date="2024-07-23",
         )
 
         #.Transforming Employee Dimension...
@@ -90,7 +91,8 @@ def run_pipeline():
 
         #.Transforming Store Dimension...
         dim_store = transform_store(
-            data["stores"]
+            data["stores"],
+            effective_start_date="2024-07-23",
         )
 
         #.Transforming Supplier Dimension...
@@ -100,7 +102,8 @@ def run_pipeline():
 
         #.Transforming Product Dimension...
         dim_product = transform_product(
-            data["products"]
+            data["products"],
+            effective_start_date="2024-07-23",
         )
 
         #.Transforming Promotion Dimension...
