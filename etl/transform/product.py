@@ -14,10 +14,28 @@ from etl.utils.utils import (
 )
 
 
-def transform_product(products: pd.DataFrame) -> pd.DataFrame:
+def transform_product(
+    products: pd.DataFrame,
+    effective_start_date=None,
+) -> pd.DataFrame:
     """
     Transform product source data into the SCD Type 2
     dim_product structure.
+
+    Parameters
+    ----------
+    products : pd.DataFrame
+        Product source data.
+
+    effective_start_date : optional
+        Initial effective date for the SCD Type 2 version.
+        If not supplied, today's date is used for backward
+        compatibility.
+
+    Returns
+    -------
+    pd.DataFrame
+        Transformed Product Dimension.
     """
 
     logger.info("Transforming Product Dimension...")
@@ -38,19 +56,27 @@ def transform_product(products: pd.DataFrame) -> pd.DataFrame:
         }
     )
 
-
     # ==========================================================
     # Handle Optional Source Attributes
     # ==========================================================
+
     if "subcategory" not in dim_product.columns:
         dim_product["subcategory"] = None
 
+    # ==========================================================
+    # Determine Initial SCD Type 2 Effective Date
+    # ==========================================================
+
+    if effective_start_date is None:
+        effective_start_date = pd.Timestamp.now().normalize()
+    else:
+        effective_start_date = pd.Timestamp(
+            effective_start_date
+        ).normalize()
 
     # ==========================================================
     # SCD Type 2 Columns
     # ==========================================================
-
-    effective_start_date = pd.Timestamp.now().normalize()
 
     dim_product["effective_start_date"] = (
         effective_start_date
@@ -66,9 +92,10 @@ def transform_product(products: pd.DataFrame) -> pd.DataFrame:
     # Audit Columns
     # ==========================================================
 
-    dim_product["created_date"] = pd.Timestamp.now()
+    current_timestamp = pd.Timestamp.now()
 
-    dim_product["updated_date"] = pd.Timestamp.now()
+    dim_product["created_date"] = current_timestamp
+    dim_product["updated_date"] = current_timestamp
 
     # ==========================================================
     # Surrogate Key

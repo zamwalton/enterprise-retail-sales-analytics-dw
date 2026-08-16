@@ -31,5 +31,7 @@ CREATE TABLE IF NOT EXISTS retail_dw.fact_sales
     is_active           BOOLEAN         NOT NULL DEFAULT TRUE,
 
     CONSTRAINT pk_fact_sales
-        PRIMARY KEY (sales_key)
+        PRIMARY KEY (sales_key),
+    CONSTRAINT uq_fact_sales_transaction_line
+        UNIQUE (transaction_id, line_number)
 );

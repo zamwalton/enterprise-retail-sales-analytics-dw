@@ -5,6 +5,7 @@ File    : test_transform_fact_sales.py
 Purpose : Test Fact Sales Transformation
 ============================================================
 """
+import pandas as pd
 
 from etl.extract.extract import extract_data
 from etl.transform.customer import transform_customer
@@ -37,6 +38,18 @@ def test_fact_sales():
     dim_product = transform_product(sources["products"])
     dim_promotion = transform_promotion(sources["promotions"])
     dim_date = transform_date()
+
+    # ==========================================================
+    # Align SCD2 Effective Dates With Fact Data
+    # ==========================================================
+
+    min_transaction_date = pd.to_datetime(
+        sources["sales_header"]["transaction_date"]
+    ).min().normalize()
+
+    dim_customer["effective_start_date"] = min_transaction_date
+    dim_store["effective_start_date"] = min_transaction_date
+    dim_product["effective_start_date"] = min_transaction_date
 
     fact = merge_header_detail(
         sources["sales_header"],

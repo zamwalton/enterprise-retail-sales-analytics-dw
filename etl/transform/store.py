@@ -14,10 +14,28 @@ from etl.utils.utils import (
 )
 
 
-def transform_store(stores: pd.DataFrame) -> pd.DataFrame:
+def transform_store(
+    stores: pd.DataFrame,
+    effective_start_date=None,
+) -> pd.DataFrame:
     """
     Transform store source data into the SCD Type 2
     dim_store structure.
+
+    Parameters
+    ----------
+    stores : pd.DataFrame
+        Store source data.
+
+    effective_start_date : optional
+        Initial effective date for the SCD Type 2 version.
+        If not supplied, today's date is used for backward
+        compatibility.
+
+    Returns
+    -------
+    pd.DataFrame
+        Transformed Store Dimension.
     """
 
     logger.info("Transforming Store Dimension...")
@@ -39,10 +57,19 @@ def transform_store(stores: pd.DataFrame) -> pd.DataFrame:
         dim_store["store_status"] = "Active"
 
     # ==========================================================
-    # SCD Type 2 Columns
+    # Determine Initial SCD Type 2 Effective Date
     # ==========================================================
 
-    effective_start_date = pd.Timestamp.now().normalize()
+    if effective_start_date is None:
+        effective_start_date = pd.Timestamp.now().normalize()
+    else:
+        effective_start_date = pd.Timestamp(
+            effective_start_date
+        ).normalize()
+
+    # ==========================================================
+    # SCD Type 2 Columns
+    # ==========================================================
 
     dim_store["effective_start_date"] = (
         effective_start_date
@@ -58,9 +85,10 @@ def transform_store(stores: pd.DataFrame) -> pd.DataFrame:
     # Audit Columns
     # ==========================================================
 
-    dim_store["created_date"] = pd.Timestamp.now()
+    current_timestamp = pd.Timestamp.now()
 
-    dim_store["updated_date"] = pd.Timestamp.now()
+    dim_store["created_date"] = current_timestamp
+    dim_store["updated_date"] = current_timestamp
 
     # ==========================================================
     # Surrogate Key

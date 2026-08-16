@@ -14,7 +14,10 @@ from etl.utils.utils import (
 )
 
 
-def transform_customer(customers: pd.DataFrame) -> pd.DataFrame:
+def transform_customer(
+    customers: pd.DataFrame,
+    effective_start_date=None,
+) -> pd.DataFrame:
     """
     Transform customer source data into the SCD Type 2
     dim_customer structure.
@@ -23,6 +26,11 @@ def transform_customer(customers: pd.DataFrame) -> pd.DataFrame:
     ----------
     customers : pd.DataFrame
         Customer source data.
+
+    effective_start_date : optional
+        Date from which the initial customer dimension
+        version becomes effective. If not provided, the
+        current date is used.
 
     Returns
     -------
@@ -52,7 +60,12 @@ def transform_customer(customers: pd.DataFrame) -> pd.DataFrame:
     # SCD Type 2 Columns
     # ==========================================================
 
-    effective_start_date = pd.Timestamp.now().normalize()
+    if effective_start_date is None:
+        effective_start_date = pd.Timestamp.now().normalize()
+    else:
+        effective_start_date = pd.Timestamp(
+            effective_start_date
+        ).normalize()
 
     dim_customer["effective_start_date"] = (
         effective_start_date
