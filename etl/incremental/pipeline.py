@@ -10,6 +10,7 @@ from etl.utils import logger
 
 from etl.extract.extract import extract_data
 
+from etl.incremental.dimension_reader import read_incremental_dimensions
 from etl.transform.customer import transform_customer
 from etl.transform.employee import transform_employee
 from etl.transform.store import transform_store
@@ -79,28 +80,18 @@ def run_incremental_pipeline():
     logger.info(
         "Transforming dimensions..."
     )
-
-    dim_customer = transform_customer(
-        data["customers"]
+    logger.info(
+        "Reading warehouse dimensions for incremental lookup..."
     )
 
-    dim_employee = transform_employee(
-        data["employees"]
-    )
+    dimensions = read_incremental_dimensions()
 
-    dim_store = transform_store(
-        data["stores"]
-    )
-
-    dim_product = transform_product(
-        data["products"]
-    )
-
-    dim_promotion = transform_promotion(
-        data["promotions"]
-    )
-
-    dim_date = transform_date()
+    dim_customer = dimensions["customer"]
+    dim_employee = dimensions["employee"]
+    dim_store = dimensions["store"]
+    dim_product = dimensions["product"]
+    dim_promotion = dimensions["promotion"]
+    dim_date = dimensions["date"]
 
     # ======================================================
     # 3. INCREMENTAL SALES HEADER
