@@ -16,6 +16,16 @@ env/
 # Environment Variables
 .env
 
+
+# Airflow
+airflow/.env
+airflow/logs/
+airflow/__pycache__/
+airflow/dags/__pycache__/
+
+# Generated Airflow configuration
+airflow/config/airflow.cfg
+
 # Logs
 logs/
 *.log
